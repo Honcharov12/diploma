@@ -1,0 +1,221 @@
+\documentclass[a4paper,12pt]{scrartcl}
+\usepackage{pscyr}
+\usepackage[14pt]{extsizes}
+\usepackage{cmap}
+\normalfont\normalsize
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian,ukrainian]{babel}
+\usepackage{amssymb,amsfonts,amsmath,amsthm,mathtext,cite,enumerate,float}
+\usepackage{indentfirst}
+\usepackage{misccorr}
+\usepackage{ccaption}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{chngcntr}
+\usepackage{makeidx}
+\usepackage{framed}
+\usepackage{lastpage}
+\usepackage{totcount}
+\usepackage{etoolbox}
+\usepackage{tabularx}
+\usepackage{dsfont}
+\usepackage{sectsty}
+\usepackage{gensymb}
+\sectionfont{\fontsize{14}{14}\normalfont\bfseries}
+\subsectionfont{\fontsize{14}{14}\normalfont\bfseries}
+\subsubsectionfont{\fontsize{14}{14}\normalfont\bfseries}
+\frenchspacing
+\linespread{1.3}
+\usepackage{geometry}
+\geometry{left=3cm}
+\geometry{right=1cm}
+\geometry{top=2cm}
+\geometry{bottom=2cm}
+\geometry{footskip=\dimexpr\headsep+\ht\strutbox\relax}
+\usepackage{titletoc}
+\titlecontents{chapter}[0em]{\vskip12pt\bfseries\normalfont}
+{\thecontentslabel\enspace}
+{\hspace{1.05em}}
+{\hfill\contentspage}[\vskip 3pt]
+\titlecontents{section}[0em]{\normalfont}
+{\thecontentslabel\enspace}
+{}
+{\titlerule*[1pc]{.}\quad\contentspage}[\vskip 4pt]
+\titlecontents{subsection}[1em]{\normalfont}
+{\thecontentslabel\enspace}
+{}
+{\titlerule*[1pc]{.}\quad\contentspage}[\vskip 3pt]
+\dottedcontents{chapter}[1.6em]{}{1.6em}{1pc}
+\setlist{nolistsep}
+\setlength\parindent{5ex}
+\graphicspath{{Mal/}}
+\makeatletter
+\renewcommand{\@biblabel}[1]{#1.}
+\renewcommand*\verbatim@font{%
+\normalfont\ttfamily
+\hyphenchar\font\m@ne
+\let\do\do@noligs\verbatim@nolig@list} 
+\makeatother
+\makeatletter
+\newcommand{\verbatimfont}[1]{\def\verbatim@font{#1}}
+\makeatother
+\newtheoremstyle{algor}{3pt}{3pt}{}{5ex}{\bfseries}{.}{0.5em}{}
+\theoremstyle{algor}
+\newtheorem{algor}{Листинг}[section]
+\counterwithin{table}{section}
+\counterwithin{figure}{section}
+\counterwithin{equation}{section}
+\captiondelim{ - } % після точки стоїть пробіл!
+%\captionnamefont{\large}
+%\captiontitlefont{\large}
+\makeindex
+\makeatletter
+\renewcommand{\@oddfoot}{\hfil \small \arabic{page}\hfil}
+\renewcommand{\@evenfoot}{\hfil \small \arabic{page}\hfil}
+\makeatother
+\changecaptionwidth
+\captionwidth{0.9\textwidth}
+\captionstyle{\centering}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhf[rh]{\thepage}% нумерація сторінок праворуч зверху
+\renewcommand\headrulewidth{0pt}
+\makeatletter % вирівнювання нижнього індексу
+\newcommand{\subalign}[1]{%
+  \vcenter{%
+    \Let@ \restore@math@cr \default@tag
+    \baselineskip\fontdimen10 \scriptfont\tw@
+    \advance\baselineskip\fontdimen12 \scriptfont\tw@
+    \lineskip\thr@@\fontdimen8 \scriptfont\thr@@
+    \lineskiplimit\lineskip
+    \ialign{\hfil$\m@th\scriptstyle##$&$\m@th\scriptstyle{}##$\crcr
+      #1\crcr
+    }%
+  }
+}
+\makeatother
+\newcounter{totfigures}
+\newcounter{tottables}
+\newcounter{totreferences}
+\newcounter{totalgor}
+\pretocmd{\section}{\addtocounter{totfigures}{\value{figure}}}{}{}
+\pretocmd{\section}{\addtocounter{tottables}{\value{table}}}{}{}
+\pretocmd{\section}{\addtocounter{totalgor}{\value{algor}}}{}{}
+\pretocmd{\bibitem}{\addtocounter{totreferences}{1}}{}{}
+\makeatletter
+\AtEndDocument{%
+\immediate\write\@mainaux{%
+  \string\gdef\string\totfig{\number\value{totfigures}}%
+  \string\gdef\string\tottab{\number\value{tottables}}% 
+  \string\gdef\string\totalg{\number\value{totalgor}}% 
+  \string\gdef\string\totref{\number\value{totreferences}}%
+}%
+}
+
+\renewcommand\section{\@startsection {section}{1}{\z@}%
+                                   {-3.5ex \@plus -1ex \@minus -.2ex}%
+                                   {2.3ex \@plus.2ex}%
+                                   {\centering\normalfont\bfseries}}
+
+
+\usepackage{secdot}
+\RequirePackage{caption}
+\DeclareCaptionLabelSeparator{defffis}{ -- } % Разделитель
+\captionsetup[table]{justification=raggedright, labelsep=defffis, format=plain, singlelinecheck=false} % Подпись таблицы слева
+\captionsetup[figure]{justification=centering, labelsep=defffis, format=plain} % Подпись рисунка по центру
+
+% Костыль для содержания
+\usepackage[compact,explicit]{titlesec}
+\usepackage{etoolbox}
+
+\makeatletter
+\patchcmd{\ttlh@hang}{\parindent\z@}{\parindent\z@\leavevmode}{}{}
+\patchcmd{\ttlh@hang}{\noindent}{}{}{}
+\makeatother
+
+
+\titleformat{\section}{\bfseries}{}{12.5mm}{\centering{\thesection\quad\bfseries{#1}}\vspace{1.5em}}
+\titleformat{\subsubsection}[block]{\vspace{1em}\bfseries\normalsize}{}{12.5mm}{\thesubsubsection\;\bfseries#1\vspace{1em}}
+\titleformat{\subsection}[block]{\bfseries\vspace{1pt}}{}{12.5mm}{\thesubsection\bfseries\;#1\vspace{1em}}
+
+\titlespacing{\subsection}{0\parindent}{0.5em}{0em}
+\titlespacing{\subsubsection}{0\parindent}{-0.5em}{0em}
+
+\makeatother
+
+% Секции без номеров (введение, заключение...), вместо section*{}
+\newcommand{\anonsection}[1]{
+    %\phantomsection % Корректный переход по ссылкам в содержании
+    \paragraph{\centerline{{#1}}\vspace{1.5em}}
+    %\addcontentsline{toc}{section}{\uppercase{#1}}
+}
+
+\makeatletter
+\def\hlinewd#1{%
+  \noalign{\ifnum0=`}\fi\hrule \@height #1 \futurelet
+   \reserved@a\@xhline}
+\makeatother
+
+\usepackage{tocloft}
+\renewcommand{\cfttoctitlefont}{\bfseries\hspace{0.38\textwidth}} % СОДЕРЖАНИЕ
+\renewcommand{\cftsecfont}{\hspace{0pt}}            % Имена секций в содержании не жирным шрифтом
+\renewcommand\cftsecleader{\cftdotfill{\cftdotsep}} % Точки для секций в содержании
+\renewcommand\cftsecpagefont{\mdseries}             % Номера страниц не жирные
+\setcounter{tocdepth}{3}                            % Глубина оглавления, до subsubsection
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[R]{\textrm{\thepage}}
+\fancyheadoffset{0mm}
+\fancyfootoffset{0mm}
+\setlength{\headheight}{17pt}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancypagestyle{plain}{ 
+    \fancyhf{}
+    \rhead{\thepage}
+}
+
+% Списки
+\usepackage{enumitem}
+
+\begin{document}
+\def\figurename{Рисунок}
+\def\tablename{Таблиця}
+\verbatimfont{\ttfamily}
+\let\normalint\int % PS
+\def\int{\displaystyle\normalint} %PS
+\let\normaliint\iint % PS
+\def\iint{\displaystyle\normaliint} %PS
+\let\normaliiint\iiint % PS
+\def\iiint{\displaystyle\normaliiint} %PS
+\let\normalsum\sum % PS
+\def\sum{\displaystyle\normalsum} %PS
+\renewcommand{\contentsname}{ЗМІСТ}
+
+\pretolerance10000
+
+\setlist[enumerate,itemize]{listparindent=18mm, leftmargin=18mm} % Отступы в списках
+\input{Reference}
+\newpage
+\tableofcontents
+\newpage
+\input{Abrev}
+\newpage
+\input{Entrance}
+\newpage
+\input{Theory}
+\newpage
+%\input{Analysis}
+%\newpage
+%\input{Economy}
+%\newpage
+%\input{Work}
+%\newpage
+%\input{Summary}
+%\newpage
+%\input{Literature}
+\end{document}
