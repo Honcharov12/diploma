@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=latex 2017.9.13)  11 APR 2021 16:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=latex 2017.9.13)  11 APR 2021 19:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1166,182 +1166,424 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
  [2]
 (./Abrev.tex) [3] (./Entrance.tex
-Underfull \hbox (badness 10000) in paragraph at lines 9--10
-[]\T2A/cmr/m/n/14.4 Тестувальна система DOTS
- []
-
-) [4] (./Theory.tex
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
-[]\T2A/cmr/m/n/14.4 В типовiй задачi
+Underfull \hbox (badness 1590) in paragraph at lines 5--6
+\T2A/cmr/m/n/14.4 в подальшому використовувати вже при вирiшеннi будь-якоЁ зада
+чi з
  []
 
 
-Underfull \hbox (badness 1917) in paragraph at lines 9--10
+Underfull \hbox (badness 1931) in paragraph at lines 5--6
+\T2A/cmr/m/n/14.4 використовуються абсолютно довiльнi нерозмiчену данi, що не м
+ають
+ []
+
+
+Underfull \hbox (badness 1917) in paragraph at lines 7--8
 []\T2A/cmr/m/n/14.4 Сучасна обробка тексту (NLP) приблизно на 80% склада№ться з
 
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 9--10
+Underfull \hbox (badness 1960) in paragraph at lines 7--8
 \T2A/cmr/m/n/14.4 word2vec беруть нерозмiчений корпус текстiв, потiм самi приду
 мують
  []
 
-[5]
-Underfull \hbox (badness 1783) in paragraph at lines 16--17
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+[]\T2A/cmr/m/n/14.4 Тестувальна система DOTS
+ []
+
+[4]) [5] (./Theory.tex
+Underfull \hbox (badness 1783) in paragraph at lines 12--13
 \T2A/cmr/m/n/14.4 в глибокому навчаннi, який прагне зробити глибоке навчання
  []
 
 [6]
-Underfull \hbox (badness 1946) in paragraph at lines 38--39
+Underfull \hbox (badness 1946) in paragraph at lines 34--35
 []\T2A/cmr/m/n/14.4 Окреслимо загальнi параметри навчання кодеру для максимiзац
 iЁ
  []
+
+
+LaTeX Warning: Reference `fig:deepinfo1' on page 7 undefined on input line 36.
 
 File: Mal/deepinfo1.jpg Graphic file (type eps)
 <Mal/deepinfo1.jpg>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
 []\T2A/cmr/m/n/14.4 Максимiзацiя вза№мноЁ
  []
 
-[7]
+
+LaTeX Warning: Reference `fig:deepinfo2' on page 8 undefined on input line 55.
+
 File: Mal/deepinfo2.jpg Graphic file (type eps)
- <Mal/deepinfo2.jpg>
-Underfull \hbox (badness 5008) in paragraph at lines 69--70
+<Mal/deepinfo2.jpg>
+Underfull \hbox (badness 5008) in paragraph at lines 65--66
 []\T2A/cmr/m/n/14.4 Пiдхiд слiду№ вза№мнiй iнформацiйнiй нейроннiй оцiнцi (MINE
 ),
  []
 
 [8]
-Underfull \hbox (badness 5105) in paragraph at lines 79--80
+Underfull \hbox (badness 5105) in paragraph at lines 75--76
 []\T2A/cmr/m/n/14.4 На найвищому рiвнi оптимiзу№ться $[]$ одночасно оцiнюючи та
 
  []
 
-LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 87.
+LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 83.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-) [9]
-Underfull \hbox (badness 1275) in paragraph at lines 114--115
+)
+
+LaTeX Warning: Reference `eq:mi' on page 9 undefined on input line 100.
+
+[9]
+Underfull \hbox (badness 1275) in paragraph at lines 110--111
 \T2A/cmr/m/n/14.4 великоЁ кiлькостi негативних зразкiв (зразки з $[]$), вони по
 виннi бути
  []
 
+
+LaTeX Warning: Reference `eq:e_psi_opt' on page 10 undefined on input line 112.
+
+
 [10]
+
+LaTeX Warning: Reference `fig:deepinfo3' on page 11 undefined on input line 116
+.
+
 File: Mal/deepinfo3.jpg Graphic file (type eps)
- <Mal/deepinfo3.jpg>
-Underfull \hbox (badness 3668) in paragraph at lines 130--131
+<Mal/deepinfo3.jpg>
+Underfull \hbox (badness 3668) in paragraph at lines 126--127
 [][]$\T2A/cmr/m/n/14.4 , що вiдобража№ корисну структуру в даних (наприклад,
  []
 
 
-Underfull \hbox (badness 2293) in paragraph at lines 130--131
+Underfull \hbox (badness 2293) in paragraph at lines 126--127
 \T2A/cmr/m/n/14.4 просторову мiсцевiсть), iндексовану в цьому випадку $\OML/cmm
 /m/it/14.4 i$\T2A/cmr/m/n/14.4 . Далi, можна
  []
 
-
-Underfull \hbox (badness 1173) in paragraph at lines 138--139
+[11]
+Underfull \hbox (badness 1173) in paragraph at lines 134--135
 \T2A/cmr/m/n/14.4 незалежними, розплутаними або незалежно керованими. DIM накла
 да№
  []
 
-[11]
-Underfull \hbox (badness 2253) in paragraph at lines 151--152
+
+Underfull \hbox (badness 2253) in paragraph at lines 147--148
 \T2A/cmr/m/n/14.4 узгодження можуть бути використанi разом. I, таким чином, мож
 на
  []
 
-
-Underfull \hbox (badness 5417) in paragraph at lines 168--169
+[12]
+Underfull \hbox (badness 5417) in paragraph at lines 164--165
 []\T2A/cmr/m/n/14.4 Розглянемо закодований запит $\OML/cmm/m/it/14.4 q$ \T2A/cm
 r/m/n/14.4 та набiр закодованих зразкiв
  []
 
-[12]
-Underfull \hbox (badness 1005) in paragraph at lines 182--183
+
+Underfull \hbox (badness 1005) in paragraph at lines 178--179
 \T2A/cmr/m/n/14.4 словника вiд розмiру мiнi-партiЁ. Розмiр словника може бути н
 абагато
  []
 
-
-Underfull \hbox (badness 3861) in paragraph at lines 184--185
+[13]
+Underfull \hbox (badness 3861) in paragraph at lines 180--181
 []\T2A/cmr/m/n/14.4 Зразки у словнику поступово замiнюються. Поточна мiнi-партi
 я
  []
 
 
-Underfull \hbox (badness 1242) in paragraph at lines 184--185
+Underfull \hbox (badness 1242) in paragraph at lines 180--181
 \T2A/cmr/m/n/14.4 потрапля№ до словника, а найстарiша мiнi-партiя в черзi вилуч
 а№ться.
  []
 
 
-Underfull \hbox (badness 2753) in paragraph at lines 184--185
+Underfull \hbox (badness 2753) in paragraph at lines 180--181
 \T2A/cmr/m/n/14.4 Словник завжди представля№ вибiркову пiдмножину всiх даних, т
 одi
  []
 
-[13]
-Underfull \hbox (badness 2828) in paragraph at lines 186--187
+
+Underfull \hbox (badness 2828) in paragraph at lines 182--183
 \T2A/cmr/m/n/14.4 ключових подань. Пропону№ться оновити iмпульс для вирiшення ц
 i№Ё
  []
 
 [14]
+
+LaTeX Warning: Reference `fig:momentum1' on page 15 undefined on input line 194
+.
+
 File: Mal/momentum1.jpg Graphic file (type eps)
- <Mal/momentum1.jpg>
-Underfull \hbox (badness 1142) in paragraph at lines 210--211
+<Mal/momentum1.jpg>
+Underfull \hbox (badness 1142) in paragraph at lines 204--205
 \T2A/cmr/m/n/14.4 або налаштування сприйнятливого розмiру поля, що може ускладн
 ити
  []
 
-
-Underfull \hbox (badness 5970) in paragraph at lines 214--215
+[15]
+Underfull \hbox (badness 5970) in paragraph at lines 208--209
 []\T2A/cmr/m/n/14.4 Порiвняльне навчання може працювати з рiзними попереднiми
  []
 
-[15]
-Underfull \hbox (badness 1325) in paragraph at lines 216--217
+
+Underfull \hbox (badness 1325) in paragraph at lines 210--211
 \T2A/cmr/m/n/14.4 збiльшення даних, щоб сформувати позитивну пару. Запити та кл
 ючi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 218--219
+LaTeX Warning: Reference `eq:infonce_simple' on page 16 undefined on input line
+ 212.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
 []\T2A/cmr/m/n/14.4 Алгоритм
  []
 
 
-Underfull \hbox (badness 2096) in paragraph at lines 220--221
+Underfull \hbox (badness 2096) in paragraph at lines 214--215
 \T2A/cmr/m/n/14.4 Normalization, BN), як у стандартному ResNet. Можна показати,
  що
  []
 
 [16]
-Underfull \hbox (badness 6961) in paragraph at lines 230--231
+Underfull \hbox (badness 6961) in paragraph at lines 224--225
 []\T2A/cmr/m/n/14.4 Порiвняльне навчання - це технiка машинного навчання, яка
  []
 
-) [17] 
+) [17] (./Economy.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+[]\T2A/cmr/m/n/14.4 Темою дипломноЁ бакалаврськоЁ роботи № ѕРозробка методiв
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--6
+| \T2A/cmr/bx/n/14.4 2.1Розрахунок кошторису витрат на проведення й
+ []
+
+
+Underfull \hbox (badness 2662) in paragraph at lines 7--8
+\T2A/cmr/m/n/14.4 НДР вимага№ певних витрат, якi необхiдно розглядати як додатк
+овi
+ []
+
+
+Underfull \hbox (badness 1442) in paragraph at lines 9--10
+[]\T2A/cmr/m/n/14.4 Як правило, всi витрати документально оформляються у вигляд
+i
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 9--10
+\T2A/cmr/m/n/14.4 кошторису. Основними статтями кошторису витрат № заробiтна пл
+ата,
+ []
+
+
+Overfull \hbox (2.11304pt too wide) in paragraph at lines 20--20
+[]|\T2A/cmr/m/n/14.4 Кiлькiсть
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+\T2A/cmr/m/n/14.4 ви-ко-нав-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+[]|\T2A/cmr/m/n/14.4 Час
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+\T2A/cmr/m/n/14.4 зайня-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+\T2A/cmr/m/n/14.4 то-стi,
+ []
+
+
+Overfull \hbox (2.3396pt too wide) in paragraph at lines 20--20
+[]|\T2A/cmr/m/n/14.4 Коефiцiент
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+\T2A/cmr/m/n/14.4 тру-до-воЁ
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--20
+[]|\T2A/cmr/m/n/14.4 Оклад
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+[]|\T2A/cmr/m/n/14.4 Заробiтна
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+\T2A/cmr/m/n/14.4 плата,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+[][]$\T2A/cmr/m/n/14.4 ,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+[]|\T2A/cmr/m/n/14.4 1 Керiвник
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+\T2A/cmr/m/n/14.4 роботи,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+\T2A/cmr/m/n/14.4 старший
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 24--24
+[]|\T2A/cmr/m/n/14.4 2 Консультант
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+\T2A/cmr/m/n/14.4 частини
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+\T2A/cmr/m/n/14.4 економiчного
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+\T2A/cmr/m/n/14.4 обгрунтування,
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 26--26
+[]|\T2A/cmr/m/n/14.4 3 Консультант
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+\T2A/cmr/m/n/14.4 частини
+ []
+
+
+Underfull \hbox (badness 1028) in paragraph at lines 26--26
+\T2A/cmr/m/n/14.4 охорони працi,
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 28--28
+[]|\T2A/cmr/m/n/14.4 4 Консультант
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--28
+\T2A/cmr/m/n/14.4 частини
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--28
+\T2A/cmr/m/n/14.4 цивiльного
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--28
+\T2A/cmr/m/n/14.4 захисту,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--28
+\T2A/cmr/m/n/14.4 старший
+ []
+
+
+Underfull \hbox (badness 4621) in paragraph at lines 30--30
+[]|\T2A/cmr/m/n/14.4 5 Виконавець,
+ []
+
+
+Overfull \hbox (7.07526pt too wide) in paragraph at lines 18--33
+[][] 
+ []
+
+[18] [19] [20]
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
+[]\T2A/cmr/m/n/14.4 Вiдрахування на соцiальне страхування й
+ []
+
+
+Underfull \hbox (badness 3312) in paragraph at lines 131--132
+[]\T2A/cmr/m/n/14.4 Розрахунок технологiчноЁ електроенергiЁ проводиться виходяч
+и iз
+ []
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 147--147
+| \T2A/cmr/bx/n/14.4 2.1.4Розрахунок електроенергiЁ, що витрача№ться на
+ []
+
+
+Underfull \hbox (badness 6445) in paragraph at lines 149--150
+\T2A/cmr/m/n/14.4 виходячи з норм охорони працi по освiтленню робочих мiсць та
+ []
+
+[22]
+Underfull \hbox (badness 1097) in paragraph at lines 192--196
+| $\OML/cmm/m/it/14.4 P$ $\OMS/cmsy/m/n/14.4 ^^@$ \T2A/cmr/m/n/14.4 вартiсть ор
+енди одного квадратного метра примiщення, $\OML/cmm/m/it/14.4 P \OT1/cmr/m/n/14
+.4 =
+ []
+
+[23]
+Underfull \hbox (badness 3492) in paragraph at lines 240--241
+[]\T2A/cmr/m/n/14.4 Плановi накопичення обираються в розмiрi $\OT1/cmr/m/n/14.4
+ 30%$ \T2A/cmr/m/n/14.4 вiд витрат на
+ []
+
+[24])
+Underfull \hbox (badness 10000) in paragraph at lines 299--215
+[]\T2A/cmr/m/n/14.4 В процесi роботи над економiчною частиною
+ []
+
+[25] 
 AED: lastpage setting LastPage
 (./Example.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 8874 strings out of 492996
- 136334 string characters out of 6132730
- 307938 words of memory out of 5000000
- 12228 multiletter control sequences out of 15000+600000
- 11845 words of font info for 35 fonts, out of 8000000 for 9000
+ 8903 strings out of 492996
+ 136719 string characters out of 6132730
+ 309938 words of memory out of 5000000
+ 12252 multiletter control sequences out of 15000+600000
+ 13448 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,12n,51p,8836b,363s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,14n,51p,8836b,315s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Example.dvi (17 pages, 57624 bytes).
+Output written on Example.dvi (25 pages, 78840 bytes).
