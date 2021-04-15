@@ -16,11 +16,13 @@
 \usepackage{makeidx}
 \usepackage{framed}
 \usepackage{lastpage}
+\usepackage{longtable}
 \usepackage{totcount}
 \usepackage{etoolbox}
 \usepackage{tabularx}
 \usepackage{dsfont}
 \usepackage{sectsty}
+\usepackage{multirow}
 \usepackage{gensymb}
 \sectionfont{\fontsize{14}{14}\normalfont\bfseries}
 \subsectionfont{\fontsize{14}{14}\normalfont\bfseries}
@@ -128,7 +130,7 @@
 
 % Костыль для содержания
 \usepackage[compact,explicit]{titlesec}
-\usepackage{etoolbox}
+%\usepackage{etoolbox}
 
 \makeatletter
 \patchcmd{\ttlh@hang}{\parindent\z@}{\parindent\z@\leavevmode}{}{}
@@ -199,22 +201,22 @@
 \pretolerance10000
 
 \setlist[enumerate,itemize]{listparindent=18mm, leftmargin=18mm} % Отступы в списках
-\input{Reference}
-\newpage
-\tableofcontents
-\newpage
-\input{Abrev}
-\newpage
-\input{Entrance}
-\newpage
-\input{Theory}
-\newpage
+%\input{Reference}
+%\newpage
+%\tableofcontents
+%\newpage
+%\input{Abrev}
+%\newpage
+%\input{Entrance}
+%\newpage
+%\input{Theory}
+%\newpage
 %\input{Analysis}
 %\newpage
-\input{Economy}
-\newpage
-%\input{Work}
+%\input{Economy}
 %\newpage
+\input{Work}
+\newpage
 %\input{Summary}
 %\newpage
 %\input{Literature}
