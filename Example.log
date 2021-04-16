@@ -1,42 +1,44 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2020.12.16)  15 APR 2021 19:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2019.6.14)  16 APR 2021 13:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Example.tex
 (./Example.tex
-LaTeX2e <2017-04-15>
-Babel <3.18> and hyphenation patterns for 12 language(s) loaded.
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrartcl.cls
-Document Class: scrartcl 2017/09/07 v3.24 KOMA-Script document class (article)
+Document Class: scrartcl 2015/10/03 v3.19a KOMA-Script document class (article)
+
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
-Package: scrkbase 2017/09/07 v3.24 KOMA-Script package (KOMA-Script-dependent b
-asics and keyval usage)
+Package: scrkbase 2015/10/03 v3.19a KOMA-Script package (KOMA-Script-dependent 
+basics and keyval usage)
 
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2017/09/07 v3.24 KOMA-Script package (KOMA-Script-independent 
-basics and keyval usage)
+Package: scrbase 2015/10/03 v3.19a KOMA-Script package (KOMA-Script-independent
+ basics and keyval usage)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2017/09/07 v3.24 KOMA-Script package (loading files)
-)))
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty
-Package: tocbasic 2017/09/07 v3.24 KOMA-Script package (handling toc-files)
-\scr@dte@tocline@numberwidth=\skip41
-\scr@dte@tocline@numbox=\box26
+Package: scrlfile 2015/10/03 v3.19a KOMA-Script package (loading files)
+
+Package scrlfile, 2015/10/03 v3.19a KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+))) (/usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2015/10/03 v3.19a KOMA-Script package (handling toc-files)
 )
 Package tocbasic Info: omitting babel extension for `toc'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `toc' on input line 133.
+(tocbasic)             for `toc' on input line 123.
 Package tocbasic Info: omitting babel extension for `lof'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `lof' on input line 135.
+(tocbasic)             for `lof' on input line 124.
 Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `lot' on input line 136.
+(tocbasic)             for `lot' on input line 125.
 Package scrartcl Info: You've used standard option `12pt'.
 (scrartcl)             This is correct!
 (scrartcl)             Internally I'm using `fontsize=12pt'.
@@ -44,15 +46,20 @@ Package scrartcl Info: You've used standard option `12pt'.
 (scrartcl)             you'd have to use `fontsize=12pt' there
 (scrartcl)             instead of `12pt', too.
 Class scrartcl Info: File `scrsize12pt.clo' used to setup font sizes on input l
-ine 2080.
+ine 2033.
 
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrsize12pt.clo
-File: scrsize12pt.clo 2017/09/07 v3.24 KOMA-Script font size class option (12pt
-)
+File: scrsize12pt.clo 2015/10/03 v3.19a KOMA-Script font size class option (12p
+t)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
-Package: typearea 2017/09/07 v3.24 KOMA-Script package (type area)
-\ta@bcor=\skip42
+Package: typearea 2015/10/03 v3.19a KOMA-Script package (type area)
+
+Package typearea, 2015/10/03 v3.19a KOMA-Script package (type area)
+                  Copyright (C) Frank Neukam, 1992-1994
+                  Copyright (C) Markus Kohm, 1994-
+
+\ta@bcor=\skip41
 \ta@div=\count79
 Package typearea Info: You've used standard option `a4paper'.
 (typearea)             This is correct!
@@ -60,10 +67,10 @@ Package typearea Info: You've used standard option `a4paper'.
 (typearea)             If you'd like to set the option with \KOMAoptions,
 (typearea)             you'd have to use `paper=a4' there
 (typearea)             instead of `a4paper', too.
-\ta@hblk=\skip43
-\ta@vblk=\skip44
-\ta@temp=\skip45
-\footheight=\skip46
+\ta@hblk=\skip42
+\ta@vblk=\skip43
+\ta@temp=\skip44
+\footheight=\skip45
 Package typearea Info: These are the values describing the layout:
 (typearea)             DIV  = 12
 (typearea)             BCOR = 0.0pt
@@ -80,7 +87,7 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 12.0pt
 (typearea)              \footskip       = 50.75pt
 (typearea)              \baselineskip   = 14.5pt
-(typearea)              on input line 1686.
+(typearea)              on input line 1509.
 )
 \c@part=\count80
 \c@section=\count81
@@ -88,28 +95,16 @@ Package typearea Info: These are the values describing the layout:
 \c@subsubsection=\count83
 \c@paragraph=\count84
 \c@subparagraph=\count85
-\scr@dte@part@maxnumwidth=\skip47
-\scr@dte@section@maxnumwidth=\skip48
-\scr@dte@subsection@maxnumwidth=\skip49
-\scr@dte@subsubsection@maxnumwidth=\skip50
-\scr@dte@paragraph@maxnumwidth=\skip51
-\scr@dte@subparagraph@maxnumwidth=\skip52
-LaTeX Info: Redefining \textsubscript on input line 4161.
-\abovecaptionskip=\skip53
-\belowcaptionskip=\skip54
-\c@pti@nb@sid@b@x=\box27
+LaTeX Info: Redefining \textsubscript on input line 3906.
+\abovecaptionskip=\skip46
+\belowcaptionskip=\skip47
+\c@pti@nb@sid@b@x=\box26
 \c@figure=\count86
 \c@table=\count87
-Class scrartcl Info: Redefining `\numberline' on input line 5319.
 \bibindent=\dimen102
+) (/usr/share/texmf/tex/latex/pscyr/pscyr.sty
+Package: pscyr 2002/07/04 v0.4d Cyrillic Type1 fonts as default
 )
-
-! LaTeX Error: File `pscyr.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
 (/usr/share/texlive/texmf-dist/tex/latex/extsizes/extsizes.sty
 Package: extsizes 1996/10/08 v1.0 Non Standard LaTeX Package
 
@@ -122,36 +117,38 @@ File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/cmap/cmap.sty
 Package: cmap 2008/03/06 v1.0h CMap support: searchable PDF
+)
+LaTeX Font Info:    Try loading font information for OT1+faq on input line 5.
 
-
-Package cmap Warning: pdftex in DVI mode - exiting.
-
-) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+(/usr/share/texmf/tex/latex/pscyr/ot1faq.fd
+File: ot1faq.fd 2001/12/09 Fontinst v1.914 font definitions for OT1/faq.
+)<<ot1.cmap>>
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
 (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2aenc.def
 File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
 )
-LaTeX Font Info:    Try loading font information for T2A+cmr on input line 105.
+LaTeX Font Info:    Try loading font information for T2A+faq on input line 105.
 
 
-(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmr.fd
-File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-))
+(/usr/share/texmf/tex/latex/pscyr/t2afaq.fd
+File: t2afaq.fd 2004/09/23 Fontinst v1.914 font definitions for T2A/faq.
+)<<t2a.cmap>>)
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+File: utf8.def 2015/12/03 v1.1r UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
-File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+File: t1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -363,17 +360,11 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+0219 (decimal 537)
    defining Unicode char U+021A (decimal 538)
    defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+0232 (decimal 562)
-   defining Unicode char U+0233 (decimal 563)
-   defining Unicode char U+1E02 (decimal 7682)
-   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+01E02 (decimal 7682)
+   defining Unicode char U+01E03 (decimal 7683)
    defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2010 (decimal 8208)
-   defining Unicode char U+2011 (decimal 8209)
-   defining Unicode char U+2012 (decimal 8210)
    defining Unicode char U+2013 (decimal 8211)
    defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2015 (decimal 8213)
    defining Unicode char U+2018 (decimal 8216)
    defining Unicode char U+2019 (decimal 8217)
    defining Unicode char U+201A (decimal 8218)
@@ -385,14 +376,12 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+2039 (decimal 8249)
    defining Unicode char U+203A (decimal 8250)
    defining Unicode char U+2423 (decimal 9251)
-   defining Unicode char U+1E20 (decimal 7712)
-   defining Unicode char U+1E21 (decimal 7713)
 )
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
-File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+File: ot1enc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -433,7 +422,7 @@ Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
-File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+File: omsenc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -449,7 +438,7 @@ Now handling font encoding T2A ...
 ... processing UTF-8 mapping file for font encoding T2A
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t2aenc.dfu
-File: t2aenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+File: t2aenc.dfu 2015/12/03 v1.1r UTF-8 support for inputenc
    defining Unicode char U+00A4 (decimal 164)
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00AB (decimal 171)
@@ -649,38 +638,27 @@ File: t2aenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+2423 (decimal 9251)
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2018/02/14 3.18 The Babel package
+Package: babel 2016/02/24 3.9q The Babel package
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2018/02/14 3.18 Babel switching mechanism
-)
 (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2017/06/06 v3.3r English support from the babel system
+Language: english 2012/08/20 v3.3p English support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2018/02/14 3.18 Babel common definitions
+File: babel.def 2016/02/24 3.9q Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
-\bbl@dirlevel=\count89
 )
-\l@british = a dialect from \language\l@english 
-\l@UKenglish = a dialect from \language\l@english 
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel-russian/russianb.ldf
-Language: russian 2017/08/12 1.3j Russian support for the Babel system
-Package babel Info: Making " an active character on input line 120.
-Package babel Info: Default for \cyrdash is provided on input line 157.
+Language: russianb 2016/02/18 1.3h Russian support for the Babel system
+Package babel Info: Making " an active character on input line 111.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/babel-ukrainian/ukraineb.ldf
-Language: ukraineb 2017/08/10 1.4b Ukrainian support for the Babel system
-LaTeX Info: Redefining \cyrillictext on input line 84.
-LaTeX Info: Redefining \textcyrillic on input line 96.
-Package babel Info: Default for \cyrdash is provided on input line 161.
+(/usr/share/texlive/texmf-dist/tex/generic/babel-ukraineb/ukraineb.ldf
+Language: ukraineb 2008/03/21 v1.1l Ukrainian support from the babel system
+LaTeX Info: Redefining \textcyrillic on input line 138.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -694,8 +672,8 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2017/09/02 v2.17a AMS math features
-\@mathmargin=\skip55
+Package: amsmath 2016/03/03 v2.15a AMS math features
+\@mathmargin=\skip48
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -711,32 +689,32 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen105
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2016/03/08 v2.02 operator names
+Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count90
-LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count91
-\leftroot@=\count92
-LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count93
-\DOTSCASE@=\count94
-LaTeX Info: Redefining \ldots on input line 472.
-LaTeX Info: Redefining \dots on input line 475.
-LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box28
-\strutbox@=\box29
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
 \big@size=\dimen106
-LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count95
-\c@MaxMatrixCols=\count96
+LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
 \dotsspace@=\muskip10
-\c@parentequation=\count97
-\dspbrk@lvl=\count98
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
 \tag@help=\toks19
-\row@=\count99
-\column@=\count100
-\maxfields@=\count101
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
 \andhelp@=\toks20
 \eqnshift@=\dimen107
 \alignsep@=\dimen108
@@ -745,22 +723,22 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \totwidth@=\dimen111
 \lineht@=\dimen112
 \@envbody=\toks21
-\multlinegap=\skip56
-\multlinetaggap=\skip57
+\multlinegap=\skip49
+\multlinetaggap=\skip50
 \mathdisplay@stack=\toks22
-LaTeX Info: Redefining \[ on input line 2817.
-LaTeX Info: Redefining \] on input line 2818.
+LaTeX Info: Redefining \[ on input line 2735.
+LaTeX Info: Redefining \] on input line 2736.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
-Package: amsthm 2017/10/31 v2.20.4
+Package: amsthm 2015/03/04 v2.20.2
 \thm@style=\toks23
 \thm@bodyfont=\toks24
 \thm@headfont=\toks25
 \thm@notefont=\toks26
 \thm@headpunct=\toks27
-\thm@preskip=\skip58
-\thm@postskip=\skip59
-\thm@headsep=\skip60
+\thm@preskip=\skip51
+\thm@postskip=\skip52
+\thm@headsep=\skip53
 \dth@everypar=\toks28
 )
 (/usr/share/texlive/texmf-dist/tex/latex/t2/mathtext.sty
@@ -778,53 +756,61 @@ Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count102
+\c@float@type=\count101
 \float@exts=\toks30
-\float@box=\box30
+\float@box=\box29
 \@float@everytoks=\toks31
-\@floatcapt=\box31
+\@floatcapt=\box30
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/t2/misccorr.sty
 Package: misccorr 1999/09/23 v0.1 misc corrections for russian typesetting
-\c@rlistctr=\count103
+\c@rlistctr=\count102
 )
 (/usr/share/texlive/texmf-dist/tex/latex/ccaption/ccaption.sty
 Package: ccaption 2011/08/07 v3.2c Extended captioning and new floats
-\@contcwidth=\skip61
-\@contindw=\skip62
-\abovelegendskip=\skip63
-\belowlegendskip=\skip64
-\c@newflo@tctr=\count104
+\@contcwidth=\skip54
+\@contindw=\skip55
+\abovelegendskip=\skip56
+\belowlegendskip=\skip57
+\c@newflo@tctr=\count103
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: dvips.def on input line 99.
+Package graphics Info: Driver file: pdftex.def on input line 95.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/dvips.def
-File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count104
 ))
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
 )
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\labelindent=\skip65
+\labelindent=\skip58
 \enit@outerparindent=\dimen115
 \enit@toks=\toks32
-\enit@inbox=\box32
+\enit@inbox=\box31
 \enitdp@description=\count105
 )
 (/usr/share/texlive/texmf-dist/tex/latex/chngcntr/chngcntr.sty
@@ -835,7 +821,7 @@ Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
 (/usr/share/texlive/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
-\OuterFrameSep=\skip66
+\OuterFrameSep=\skip59
 \fb@frw=\dimen116
 \fb@frh=\dimen117
 \FrameRule=\dimen118
@@ -846,16 +832,16 @@ Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip67
-\LTright=\skip68
-\LTpre=\skip69
-\LTpost=\skip70
+\LTleft=\skip60
+\LTright=\skip61
+\LTpre=\skip62
+\LTpost=\skip63
 \LTchunksize=\count106
 \LTcapwidth=\dimen120
-\LT@head=\box33
-\LT@firsthead=\box34
-\LT@foot=\box35
-\LT@lastfoot=\box36
+\LT@head=\box32
+\LT@firsthead=\box33
+\LT@foot=\box34
+\LT@lastfoot=\box35
 \LT@cols=\count107
 \LT@rows=\count108
 \c@LT@tables=\count109
@@ -869,19 +855,19 @@ Package: totcount 2011/01/25 v1.2 package for gettingthe total value of LaTeX c
 ounters
 )
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count111
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
-Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+Package: tabularx 2014/10/28 v2.10 `tabularx' package (DPC)
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen121
 \extrarowheight=\dimen122
 \NC@list=\toks34
-\extratabsurround=\skip71
-\backup@length=\skip72
+\extratabsurround=\skip64
+\backup@length=\skip65
 )
 \TX@col@width=\dimen123
 \TX@old@table=\dimen124
@@ -899,10 +885,6 @@ Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
 les
 )
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
-Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
-\multirow@colwidth=\skip73
-\multirow@cntb=\count113
-\multirow@dima=\skip74
 \bigstrutjot=\dimen128
 )
 (/usr/share/texlive/texmf-dist/tex/latex/was/gensymb.sty
@@ -912,18 +894,19 @@ Package: gensymb 2003/07/02 v1.0 (WaS)
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
 (/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count114
-\Gm@cntv=\count115
-\c@Gm@tempcnt=\count116
+\Gm@cnth=\count113
+\Gm@cntv=\count114
+\c@Gm@tempcnt=\count115
 \Gm@bindingoffset=\dimen129
 \Gm@wd@mp=\dimen130
 \Gm@odd@mp=\dimen131
@@ -938,7 +921,7 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 Package: titletoc 2011/12/15 v1.6 TOC entries
 \ttl@leftsep=\dimen137
 )
-\c@algor=\count117
+\c@algor=\count116
 \@indexfile=\write3
 \openout3 = `Example.idx'.
 
@@ -948,33 +931,25 @@ Writing index file Example.idx
 Class scrartcl Warning: Usage of package `fancyhdr' together
 (scrartcl)              with a KOMA-Script class is not recommended.
 (scrartcl)              I'd suggest to use 
-(scrartcl)              package `scrlayer' or `scrlayer-scrpage', because
-(scrartcl)              they support KOMA-Script classes.
-(scrartcl)              With `fancyhdr' several features of class `scrartcl'
-(scrartcl)              like options `headsepline', `footsepline' or command
-(scrartcl)              `\MakeMarkcase' and the commands `\setkomafont' and
-(scrartcl)              `\addtokomafont' for the page style elements need
-(scrartcl)              explicite user intervention to work.
+(scrartcl)              package `scrlayer-scrpage'.
 (scrartcl)              Nevertheless, using requested
 (scrartcl)              package `fancyhdr' on input line 83.
 
 (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
-s
-\f@nch@headwidth=\skip75
-\f@nch@O@elh=\skip76
-\f@nch@O@erh=\skip77
-\f@nch@O@olh=\skip78
-\f@nch@O@orh=\skip79
-\f@nch@O@elf=\skip80
-\f@nch@O@erf=\skip81
-\f@nch@O@olf=\skip82
-\f@nch@O@orf=\skip83
+\fancy@headwidth=\skip66
+\f@ncyO@elh=\skip67
+\f@ncyO@erh=\skip68
+\f@ncyO@olh=\skip69
+\f@ncyO@orh=\skip70
+\f@ncyO@elf=\skip71
+\f@ncyO@erf=\skip72
+\f@ncyO@olf=\skip73
+\f@ncyO@orf=\skip74
 )
-\c@totfigures=\count118
-\c@tottables=\count119
-\c@totreferences=\count120
-\c@totalgor=\count121
+\c@totfigures=\count117
+\c@tottables=\count118
+\c@totreferences=\count119
+\c@totalgor=\count120
 
 (/usr/share/texlive/texmf-dist/tex/latex/secdot/secdot.sty
 Package: secdot 2000/06/20 v1.0 section numbers with dots
@@ -983,7 +958,7 @@ Package: secdot 2000/06/20 v1.0 section numbers with dots
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen138
 \captionmargin@=\dimen139
@@ -1015,7 +990,7 @@ tcstyle \hangindent =\@contindw \hangafter =\@ne \@conttfont #2\par } \else \@c
 ontpre {\@contnfont #1\@contdelim }\@conttempa {\@contcstyle \@conttfont #2\par
  } \fi \fi \@contpost \if@contcw \par } \fi \vskip \belowcaptionskip .
 Package caption Info: KOMA-Script document class.
-\c@ContinuedFloat=\count122
+\c@ContinuedFloat=\count121
 Package caption Info: float package is loaded.
 Package caption Info: longtable package is loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
@@ -1033,10 +1008,10 @@ Class scrartcl Warning: Usage of package `titlesec' together
 (scrartcl)              package `titlesec' on input line 134.
 
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
-Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
-\ttl@box=\box37
-\beforetitleunit=\skip84
-\aftertitleunit=\skip85
+Package: titlesec 2016/03/15 v2.10.1 Sectioning titles
+\ttl@box=\box36
+\beforetitleunit=\skip75
+\aftertitleunit=\skip76
 \ttl@plus=\dimen145
 \ttl@minus=\dimen146
 \ttl@toksa=\toks37
@@ -1044,57 +1019,48 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidthlast=\dimen148
 \titlewidthfirst=\dimen149
 )
+Class scrartcl Info: Deactivating the `titlesec` workaround,
+(scrartcl)           because package is newer than expected on input line 134.
 
-Class scrartcl Warning: Activating an ugly workaround for a missing
-(scrartcl)              feature of package `titlesec` on input line 134.
-
-Runaway argument?
-\@startsection {section}{1}{\z@ }{-3.5ex \@plus -1ex \@minus -.2ex}{2\ETC.
-! Paragraph ended before \scr@ttl@@extract was complete.
-<to be read again> 
-                   \par 
-l.134 
-      
-? 
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/block.tss
 File: block.tss 2016/03/15
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
-Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
-Package tocloft Info: The document has section divisions on input line 51.
-\cftparskip=\skip86
-\cftbeforetoctitleskip=\skip87
-\cftaftertoctitleskip=\skip88
-\cftbeforepartskip=\skip89
-\cftpartnumwidth=\skip90
-\cftpartindent=\skip91
-\cftbeforesecskip=\skip92
-\cftsecindent=\skip93
-\cftsecnumwidth=\skip94
-\cftbeforesubsecskip=\skip95
-\cftsubsecindent=\skip96
-\cftsubsecnumwidth=\skip97
-\cftbeforesubsubsecskip=\skip98
-\cftsubsubsecindent=\skip99
-\cftsubsubsecnumwidth=\skip100
-\cftbeforeparaskip=\skip101
-\cftparaindent=\skip102
-\cftparanumwidth=\skip103
-\cftbeforesubparaskip=\skip104
-\cftsubparaindent=\skip105
-\cftsubparanumwidth=\skip106
-\cftbeforeloftitleskip=\skip107
-\cftafterloftitleskip=\skip108
-\cftbeforefigskip=\skip109
-\cftfigindent=\skip110
-\cftfignumwidth=\skip111
-\c@lofdepth=\count123
-\c@lotdepth=\count124
-\cftbeforelottitleskip=\skip112
-\cftafterlottitleskip=\skip113
-\cftbeforetabskip=\skip114
-\cfttabindent=\skip115
-\cfttabnumwidth=\skip116
+Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
+Package tocloft Info: The document has section divisions on input line 44.
+\cftparskip=\skip77
+\cftbeforetoctitleskip=\skip78
+\cftaftertoctitleskip=\skip79
+\cftbeforepartskip=\skip80
+\cftpartnumwidth=\skip81
+\cftpartindent=\skip82
+\cftbeforesecskip=\skip83
+\cftsecindent=\skip84
+\cftsecnumwidth=\skip85
+\cftbeforesubsecskip=\skip86
+\cftsubsecindent=\skip87
+\cftsubsecnumwidth=\skip88
+\cftbeforesubsubsecskip=\skip89
+\cftsubsubsecindent=\skip90
+\cftsubsubsecnumwidth=\skip91
+\cftbeforeparaskip=\skip92
+\cftparaindent=\skip93
+\cftparanumwidth=\skip94
+\cftbeforesubparaskip=\skip95
+\cftsubparaindent=\skip96
+\cftsubparanumwidth=\skip97
+\cftbeforeloftitleskip=\skip98
+\cftafterloftitleskip=\skip99
+\cftbeforefigskip=\skip100
+\cftfigindent=\skip101
+\cftfignumwidth=\skip102
+\c@lofdepth=\count122
+\c@lotdepth=\count123
+\cftbeforelottitleskip=\skip103
+\cftafterlottitleskip=\skip104
+\cftbeforetabskip=\skip105
+\cfttabindent=\skip106
+\cfttabnumwidth=\skip107
 ) (./Example.aux)
 \openout1 = `Example.aux'.
 
@@ -1111,7 +1077,71 @@ LaTeX Font Info:    ... okay on input line 187.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 187.
 LaTeX Font Info:    ... okay on input line 187.
 LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 187.
+LaTeX Font Info:    Try loading font information for T2A+cmr on input line 187.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmr.fd
+File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
 LaTeX Font Info:    ... okay on input line 187.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count124
+\scratchdimen=\dimen150
+\scratchbox=\box37
+\nofMPsegments=\count125
+\nofMParguments=\count126
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count127
+\MPscratchDim=\dimen151
+\MPnumerator=\count128
+\makeMPintoPDFobject=\count129
+\everyMPtoPDFconversion=\toks39
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 187.
@@ -1128,9 +1158,9 @@ Package gensymb Info: Using \Omega for \ohm on input line 187.
 Package gensymb Warning: Not defining \micro.
 
 *geometry* driver: auto-detecting
-*geometry* detected driver: dvips
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: dvips
+* driver: pdftex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -1175,1117 +1205,1123 @@ See the caption package documentation for explanation.
 
 Package caption Info: End \AtBeginDocument code.
 (./Work.tex
-Underfull \hbox (badness 1406) in paragraph at lines 6--7
-[]\T2A/cmr/m/n/14.4 Роздiл виконано для етапу розробки на ЕОМ системи створення
-
+Underfull \hbox (badness 2556) in paragraph at lines 10--11
+[]\T2A/faq/m/n/14.4 Обладнання, примiщення i режим працi користувача повиннi
  []
 
-
-Underfull \hbox (badness 2790) in paragraph at lines 6--7
-\T2A/cmr/m/n/14.4 програмного комплексу для аналiзу роботи алгоритмiв порiвняль
-ного
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-[]\T2A/cmr/m/n/14.4 Обладнання, примiщення i режим працi користувача повиннi
- []
-
-
-Underfull \hbox (badness 6825) in paragraph at lines 17--18
-[]\T2A/cmr/m/n/14.4 ДСН 3.3.6.042-99. Санiтарнi норми мiкроклiмату виробничих
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-[]\T2A/cmr/m/n/14.4 НПАОП 40.1-1.32-01. Правила будови електроустановок.
- []
-
-
-Underfull \hbox (badness 4543) in paragraph at lines 24--25
-[]\T2A/cmr/m/n/14.4 ДСТУ ГОСТ 7237:2011. Електробезпека. Загальнi вимоги та
- []
-
-[1
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
-[]\T2A/cmr/m/n/14.4 Загальна характеристика виробничого примiщення, в якому
+Underfull \hbox (badness 6725) in paragraph at lines 34--35
+[]\T2A/faq/m/n/14.4 Загальна характеристика виробничого примiщення, в якому
  []
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 38.
+<<oml.cmap>><<oms.cmap>><<omx.cmap>>
+LaTeX Font Info:    Try loading font information for U+msa on input line 40.
+
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 38.
+LaTeX Font Info:    Try loading font information for U+msb on input line 40.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (4.51526pt too wide) in paragraph at lines 40--40
-[]|\T2A/cmr/m/n/14.4 Найменування
+Overfull \hbox (7.24358pt too wide) in paragraph at lines 42--42
+[]|\T2A/faq/m/n/14.4 Найменування
  []
 
 
-Overfull \hbox (5.30669pt too wide) in paragraph at lines 40--40
-[]|\T2A/cmr/m/n/14.4 Характеристика
+Overfull \hbox (6.09239pt too wide) in paragraph at lines 42--42
+[]|\T2A/faq/m/n/14.4 Характеристика
  []
 
 
-Overfull \hbox (7.04501pt too wide) in paragraph at lines 40--40
-[]|\T2A/cmr/m/n/14.4 Об рунтування
- []
-
-
-Underfull \hbox (badness 3977) in paragraph at lines 40--40
-\T2A/cmr/m/n/14.4 н-ня по-ка-зни-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
-[]|\T2A/cmr/m/n/14.4 Документ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
-\T2A/cmr/m/n/14.4 що
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
-\T2A/cmr/m/n/14.4 регламенту№
+Overfull \hbox (8.91235pt too wide) in paragraph at lines 42--42
+[]|\T2A/faq/m/n/14.4 Об рунтування
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 42--42
-[]|\T2A/cmr/m/n/14.4 1. Розмiри
+[]|\T2A/faq/m/n/14.4 Документ,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 42--42
-\T2A/cmr/m/n/14.4 примiщення
+\T2A/faq/m/n/14.4 що ре-гла-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
-\T2A/cmr/m/n/14.4 з ЕОМ не
+Underfull \hbox (badness 10000) in paragraph at lines 44--44
+[]|\T2A/faq/m/n/14.4 1. Розмiри
  []
 
 
-Overfull \vbox (39.90343pt too high) detected at line 42
+Underfull \hbox (badness 10000) in paragraph at lines 44--44
+\T2A/faq/m/n/14.4 примiщення
  []
 
 
-Overfull \hbox (4.83432pt too wide) in paragraph at lines 42--42
-[]|[]| 
+Underfull \hbox (badness 5008) in paragraph at lines 44--44
+[]\T2A/faq/m/n/14.4 на одне р.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
-[]\T2A/cmr/m/n/14.4 фактично
+Overfull \vbox (39.11082pt too high) detected at line 44
  []
 
 
-Overfull \vbox (62.47017pt too high) detected at line 42
- []
-
-
-Overfull \hbox (7.25516pt too wide) in paragraph at lines 42--43
+Overfull \hbox (9.66862pt too wide) in paragraph at lines 44--44
 []|[]| 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 44--44
-[]|\T2A/cmr/m/n/14.4 2. Кiлькiсть
+\T2A/faq/m/n/14.4 що
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 44--44
-\T2A/cmr/m/n/14.4 робочих
+\T2A/faq/m/n/14.4 вiдповiда№
  []
 
 
-Overfull \hbox (14.0199pt too wide) in paragraph at lines 38--47
+Overfull \vbox (62.93167pt too high) detected at line 44
+ []
+
+
+Overfull \hbox (2.41347pt too wide) in paragraph at lines 44--45
+[]|[]| 
+ []
+
+
+Underfull \hbox (badness 3679) in paragraph at lines 46--46
+[]|\T2A/faq/m/n/14.4 2. Кiлькiсть
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--46
+\T2A/faq/m/n/14.4 робочих
+ []
+
+
+Overfull \hbox (14.02728pt too wide) in paragraph at lines 40--49
 [][] 
  []
 
 [2]
-Overfull \hbox (4.51526pt too wide) in paragraph at lines 59--59
-[]|\T2A/cmr/m/n/14.4 Найменування
+Overfull \hbox (7.24358pt too wide) in paragraph at lines 61--61
+[]|\T2A/faq/m/n/14.4 Найменування
  []
 
 
-Overfull \hbox (5.30669pt too wide) in paragraph at lines 59--59
-[]|\T2A/cmr/m/n/14.4 Характеристика
+Overfull \hbox (6.09239pt too wide) in paragraph at lines 61--61
+[]|\T2A/faq/m/n/14.4 Характеристика
  []
 
 
-Overfull \hbox (7.04501pt too wide) in paragraph at lines 59--59
-[]|\T2A/cmr/m/n/14.4 Об рунтування
- []
-
-
-Underfull \hbox (badness 3977) in paragraph at lines 59--59
-\T2A/cmr/m/n/14.4 н-ня по-ка-зни-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--59
-[]|\T2A/cmr/m/n/14.4 Документ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--59
-\T2A/cmr/m/n/14.4 що
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--59
-\T2A/cmr/m/n/14.4 регламенту№
+Overfull \hbox (8.91235pt too wide) in paragraph at lines 61--61
+[]|\T2A/faq/m/n/14.4 Об рунтування
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 61--61
-[]\T2A/cmr/m/n/14.4 1. Природне
+[]|\T2A/faq/m/n/14.4 Документ,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 61--61
-\T2A/cmr/m/n/14.4 освiтлення,
+\T2A/faq/m/n/14.4 що ре-гла-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
-\T2A/cmr/m/n/14.4 вiкна
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
-\T2A/cmr/m/n/14.4 виходять на
- []
-
-
-Overfull \vbox (62.00348pt too high) detected at line 61
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
-\T2A/cmr/m/n/14.4 сто-рон-н№;
- []
-
-
-Overfull \vbox (18.27007pt too high) detected at line 61
- []
-
-
-Underfull \hbox (badness 1527) in paragraph at lines 61--61
-[]|\T2A/cmr/m/n/14.4 див. таблицю
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
-[]|\T2A/cmr/m/n/14.4 ДБН
+Underfull \hbox (badness 2608) in paragraph at lines 63--63
+[]\T2A/faq/m/n/14.4 1. Природне
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 63--63
-[]|\T2A/cmr/m/n/14.4 КПО не
+\T2A/faq/m/n/14.4 освiтлення,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 63--63
-[]|\T2A/cmr/m/n/14.4 ДСанПiН
+\T2A/faq/m/n/14.4 вiкна
+ []
+
+
+Underfull \hbox (badness 3525) in paragraph at lines 63--63
+\T2A/faq/m/n/14.4 виходять на
+ []
+
+
+Overfull \vbox (61.21088pt too high) detected at line 63
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 63--63
+\T2A/faq/m/n/14.4 сто-рон-н№;
+ []
+
+
+Overfull \vbox (18.73157pt too high) detected at line 63
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 65--65
-[]\T2A/cmr/m/n/14.4 2. Штучне
+[]|\T2A/faq/m/n/14.4 КПО
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 65--65
-\T2A/cmr/m/n/14.4 освiтлення,
+[]|\T2A/faq/m/n/14.4 ДСанПiН
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 65--65
-\T2A/cmr/m/n/14.4 кiлькiсть
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-\T2A/cmr/m/n/14.4 свiтильникiв
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-\T2A/cmr/m/n/14.4 N; джерела
- []
-
-
-Overfull \vbox (81.77014pt too high) detected at line 65
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-[]\T2A/cmr/m/n/14.4 загальне
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-\T2A/cmr/m/n/14.4 рiв-но-мiр-не;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-\T2A/cmr/m/n/14.4 N=10; лю-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-\T2A/cmr/m/n/14.4 мi-не-сцен-тнi
- []
-
-
-Overfull \vbox (59.67009pt too high) detected at line 65
- []
-
-
-Underfull \hbox (badness 1527) in paragraph at lines 65--65
-[]|\T2A/cmr/m/n/14.4 див. таблицю
- []
-
-
-Underfull \hbox (badness 3158) in paragraph at lines 65--65
-[]|\T2A/cmr/m/n/14.4 ДБН В.2.5.-
+\T2A/faq/m/n/14.4 3.3.2-007-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 67--67
-[]|\T2A/cmr/m/n/14.4 ДСанПiН
+[]\T2A/faq/m/n/14.4 2. Штучне
  []
 
 
-Overfull \hbox (14.0199pt too wide) in paragraph at lines 57--70
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+\T2A/faq/m/n/14.4 освiтлення,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+\T2A/faq/m/n/14.4 кiлькiсть
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+\T2A/faq/m/n/14.4 свiтильникiв
+ []
+
+
+Underfull \hbox (badness 7631) in paragraph at lines 67--67
+\T2A/faq/m/n/14.4 N; джерела
+ []
+
+
+Overfull \vbox (81.92133pt too high) detected at line 67
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+[]\T2A/faq/m/n/14.4 загальне
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+\T2A/faq/m/n/14.4 рiв-но-мiр-не;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+\T2A/faq/m/n/14.4 N=10; лю-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+\T2A/faq/m/n/14.4 мi-не-сцен-тнi
+ []
+
+
+Overfull \vbox (59.82127pt too high) detected at line 67
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+[]|\T2A/faq/m/n/14.4 ДБН
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
+[]|\T2A/faq/m/n/14.4 не нижче
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
+[]|\T2A/faq/m/n/14.4 ДСанПiН
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
+\T2A/faq/m/n/14.4 3.3.2-007-
+ []
+
+
+Overfull \hbox (14.02728pt too wide) in paragraph at lines 59--72
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
-[]|\T2A/cmr/m/n/14.4 Найменування
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
-[]|\T2A/cmr/m/n/14.4 Характеристика
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
-[]|\T2A/cmr/m/n/14.4 Об рунтування
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
-[]|\T2A/cmr/m/n/14.4 Документ, що
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]|\T2A/faq/m/n/14.4 Найменування
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 84--84
-[]|\T2A/cmr/m/n/14.4 1. Категорiя
+[]|\T2A/faq/m/n/14.4 Характеристика
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 84--84
-\T2A/cmr/m/n/14.4 примiщення з
+[]|\T2A/faq/m/n/14.4 Об рунтування
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
-\T2A/cmr/m/n/14.4 вибухо^^Uпожеже
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
-\T2A/cmr/m/n/14.4 матерiали:
- []
-
-
-Underfull \hbox (badness 4556) in paragraph at lines 84--84
-\T2A/cmr/m/n/14.4 папiр, деревина
- []
-
-
-Underfull \hbox (badness 1478) in paragraph at lines 84--85
-[]|\T2A/cmr/m/n/14.4 ДСТУ Б В.1.1-
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+[]|\T2A/faq/m/n/14.4 Документ, що
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 86--86
-[]|\T2A/cmr/m/n/14.4 2. Ступiнь
+[]|\T2A/faq/m/n/14.4 1. Категорiя
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 86--86
-\T2A/cmr/m/n/14.4 вогнестiйкостi
+\T2A/faq/m/n/14.4 примiщення з
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 86--86
-\T2A/cmr/m/n/14.4 будiвельних
+\T2A/faq/m/n/14.4 вибухо^^Uпожеже
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 86--86
-[]|\T2A/cmr/m/n/14.4 5-и поверхова
+[]|\T2A/faq/m/n/14.4 №
+ []
+
+
+Underfull \hbox (badness 1546) in paragraph at lines 86--86
+\T2A/faq/m/n/14.4 твердi спаленнi
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 86--86
-\T2A/cmr/m/n/14.4 будiвля;
+\T2A/faq/m/n/14.4 матерiали:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
-[]|\T2A/cmr/m/n/14.4 ДБН
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+[]|\T2A/faq/m/n/14.4 2. Ступiнь
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+\T2A/faq/m/n/14.4 вогнестiйкостi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+\T2A/faq/m/n/14.4 будiвельних
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+[]|\T2A/faq/m/n/14.4 5-и поверхова
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+\T2A/faq/m/n/14.4 будiвля;
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+[]|\T2A/faq/m/n/14.4 ДБН
  []
 
 [3]
-Overfull \hbox (4.51526pt too wide) in paragraph at lines 101--101
-[]|\T2A/cmr/m/n/14.4 Найменування
+Overfull \hbox (7.24358pt too wide) in paragraph at lines 103--103
+[]|\T2A/faq/m/n/14.4 Найменування
  []
 
 
-Overfull \hbox (5.30669pt too wide) in paragraph at lines 101--101
-[]|\T2A/cmr/m/n/14.4 Характеристика
+Overfull \hbox (6.09239pt too wide) in paragraph at lines 103--103
+[]|\T2A/faq/m/n/14.4 Характеристика
  []
 
 
-Overfull \hbox (7.04501pt too wide) in paragraph at lines 101--101
-[]|\T2A/cmr/m/n/14.4 Об рунтування
- []
-
-
-Underfull \hbox (badness 3977) in paragraph at lines 101--101
-\T2A/cmr/m/n/14.4 н-ня по-ка-зни-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
-[]|\T2A/cmr/m/n/14.4 Документ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
-\T2A/cmr/m/n/14.4 що
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
-\T2A/cmr/m/n/14.4 регламенту№
+Overfull \hbox (8.91235pt too wide) in paragraph at lines 103--103
+[]|\T2A/faq/m/n/14.4 Об рунтування
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 103--103
-[]|\T2A/cmr/m/n/14.4 чотири
+[]|\T2A/faq/m/n/14.4 Документ,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 103--103
-\T2A/cmr/m/n/14.4 провiдна з
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
-\T2A/cmr/m/n/14.4 глухо
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
-\T2A/cmr/m/n/14.4 заземленою
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
-\T2A/cmr/m/n/14.4 нейтраллю
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
-\T2A/cmr/m/n/14.4 напругою
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
-\T2A/cmr/m/n/14.4 380/220 В,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
-\T2A/cmr/m/n/14.4 мережi
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
-\T2A/cmr/m/n/14.4 великоЁ
+\T2A/faq/m/n/14.4 що ре-гла-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 105--105
-\T2A/cmr/m/n/14.4 мi-ще-н-ня за
+[]|\T2A/faq/m/n/14.4 1. Ха-ра-
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 105--105
-\T2A/cmr/m/n/14.4 сту-пе-нем
+\T2A/faq/m/n/14.4 кте-ри-сти-ка
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 105--105
-\T2A/cmr/m/n/14.4 не-без-пе-ки
+\T2A/faq/m/n/14.4 три-фа-зноЁ
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 105--105
-\T2A/cmr/m/n/14.4 ура-же-н-ня
+\T2A/faq/m/n/14.4 еле-ктри-чноЁ
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 105--105
-\T2A/cmr/m/n/14.4 еле-ктро-стру-
+[]|\T2A/faq/m/n/14.4 чотири
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 105--105
-[]|\T2A/cmr/m/n/14.4 з пiдвищеною
- []
-
-
-Underfull \hbox (badness 1960) in paragraph at lines 105--105
-[]|\T2A/cmr/m/n/14.4 № мо-жли-вiсть
+\T2A/faq/m/n/14.4 провiдна з
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 105--105
-\T2A/cmr/m/n/14.4 одно-ча-сно-го
+\T2A/faq/m/n/14.4 глухо
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 105--105
-\T2A/cmr/m/n/14.4 та-ло-кон-стру-
+\T2A/faq/m/n/14.4 заземленою
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 105--105
-\T2A/cmr/m/n/14.4 кцiй бу-дiв-лi,
+\T2A/faq/m/n/14.4 нейтраллю
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 105--105
-\T2A/cmr/m/n/14.4 що ма-ють
+\T2A/faq/m/n/14.4 напругою
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 105--105
-\T2A/cmr/m/n/14.4 з'№днання з
+\T2A/faq/m/n/14.4 380/220
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 105--105
-\T2A/cmr/m/n/14.4 зем-лею, та
+[]|\T2A/faq/m/n/14.4 довгi
  []
 
 
-Underfull \hbox (badness 2269) in paragraph at lines 105--105
-\T2A/cmr/m/n/14.4 до ме-та-ле-вих
+Underfull \hbox (badness 10000) in paragraph at lines 105--105
+\T2A/faq/m/n/14.4 кабельнi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
-[]|\T2A/cmr/m/n/14.4 необхiдно
+Underfull \hbox (badness 10000) in paragraph at lines 105--105
+\T2A/faq/m/n/14.4 мережi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
-\T2A/cmr/m/n/14.4 передбачити
+Underfull \hbox (badness 10000) in paragraph at lines 105--105
+\T2A/faq/m/n/14.4 великоЁ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
-\T2A/cmr/m/n/14.4 заходи
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+\T2A/faq/m/n/14.4 мi-ще-н-ня за
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
-\T2A/cmr/m/n/14.4 безпеки
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+\T2A/faq/m/n/14.4 сту-пе-нем
  []
 
 
-Overfull \hbox (14.0199pt too wide) in paragraph at lines 99--108
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+\T2A/faq/m/n/14.4 не-без-пе-ки
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+\T2A/faq/m/n/14.4 ура-же-н-ня
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+\T2A/faq/m/n/14.4 еле-ктро-стру-
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 107--107
+[]|\T2A/faq/m/n/14.4 з пiдвищеною
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+\T2A/faq/m/n/14.4 одно-ча-сно-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+\T2A/faq/m/n/14.4 го до-ти-ку
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+\T2A/faq/m/n/14.4 до ме-та-ло-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+\T2A/faq/m/n/14.4 кон-стру-кцiй
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
+\T2A/faq/m/n/14.4 бу-дiв-лi, що
+ []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 107--107
+\T2A/faq/m/n/14.4 вих кор-пу-сiв
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
+[]|\T2A/faq/m/n/14.4 необхiдно
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
+\T2A/faq/m/n/14.4 передбачити
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
+\T2A/faq/m/n/14.4 заходи
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
+\T2A/faq/m/n/14.4 безпеки
+ []
+
+
+Overfull \hbox (14.02728pt too wide) in paragraph at lines 101--110
 [][] 
  []
 
 [4]
-Underfull \hbox (badness 1748) in paragraph at lines 114--115
-\T2A/cmr/m/n/14.4 працюючого може призводити в певних умовах до захворювання аб
-о
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+[]|\T2A/faq/m/n/14.4 Назва
  []
 
 
-Underfull \hbox (badness 3601) in paragraph at lines 116--117
-[]\T2A/cmr/m/n/14.4 Згiдно з державним стандартом шкiдливi i небезпечнi фактори
-
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+[]|\T2A/faq/m/n/14.4 Джерела
  []
 
 
-Underfull \hbox (badness 2564) in paragraph at lines 116--117
-\T2A/cmr/m/n/14.4 по природi Ёх впливу подiляються на фiзичнi, хiмiчнi, бiологi
-чнi та
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+[]|\T2A/faq/m/n/14.4 Нормативнi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--128
-[]|\T2A/cmr/m/n/14.4 Назва
+Underfull \hbox (badness 10000) in paragraph at lines 131--131
+\T2A/faq/m/n/14.4 параметри,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--128
-[]|\T2A/cmr/m/n/14.4 Джерела
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+[]|\T2A/faq/m/n/14.4 Документ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--128
-[]|\T2A/cmr/m/n/14.4 Нормативнi
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+\T2A/faq/m/n/14.4 що
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--128
-\T2A/cmr/m/n/14.4 параметри,
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+\T2A/faq/m/n/14.4 регламенту№
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
-[]|\T2A/cmr/m/n/14.4 Документ,
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]|\T2A/faq/m/n/14.4 Висока
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
-\T2A/cmr/m/n/14.4 що
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\T2A/faq/m/n/14.4 електрична
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
-\T2A/cmr/m/n/14.4 регламенту№
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]|\T2A/faq/m/n/14.4 мережа
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--130
-[]|\T2A/cmr/m/n/14.4 Висока
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\T2A/faq/m/n/14.4 живлення
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--130
-\T2A/cmr/m/n/14.4 електрична
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+[]|\T2A/faq/m/n/14.4 нормальний
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--130
-[]|\T2A/cmr/m/n/14.4 мережа
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
+\T2A/faq/m/n/14.4 режим
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--130
-\T2A/cmr/m/n/14.4 живлення
- []
+LaTeX Warning: Command \CYRII invalid in math mode on input line 133.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--130
-[]|\T2A/cmr/m/n/14.4 нормальний
- []
-
-
-LaTeX Warning: Command \CYRII invalid in math mode on input line 130.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--130
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 \OT1/cmr/m/n/14.4 0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 3$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--131
-[]|\T2A/cmr/m/n/14.4 ДСТУ
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+[]|\T2A/faq/m/n/14.4 ДСТУ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--131
-\T2A/cmr/m/n/14.4 ГОСТ
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+\T2A/faq/m/n/14.4 ГОСТ
  []
 
 
-Overfull \hbox (14.0199pt too wide) in paragraph at lines 126--133
+Overfull \hbox (14.0199pt too wide) in paragraph at lines 129--136
 [][] 
  []
 
+
+Underfull \hbox (badness 2057) in paragraph at lines 138--139
+[]\T2A/faq/m/n/14.4 Таблиця 1.6[] показу№ типовий перелiк потенцiйних шкiдливих
+
+ []
+
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-[]|\T2A/cmr/m/n/14.4 Назва
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
+[]|\T2A/faq/m/n/14.4 Назва
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-[]|\T2A/cmr/m/n/14.4 Джерела
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
+[]|\T2A/faq/m/n/14.4 Джерела
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-[]|\T2A/cmr/m/n/14.4 Нормативнi
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
+[]|\T2A/faq/m/n/14.4 Нормативнi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-\T2A/cmr/m/n/14.4 параметри,
+Underfull \hbox (badness 10000) in paragraph at lines 148--148
+\T2A/faq/m/n/14.4 параметри,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
-[]|\T2A/cmr/m/n/14.4 Документ,
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
+[]|\T2A/faq/m/n/14.4 Документ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
-\T2A/cmr/m/n/14.4 що
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
+\T2A/faq/m/n/14.4 що
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
-\T2A/cmr/m/n/14.4 регламенту№
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
+\T2A/faq/m/n/14.4 регламенту№
  []
 
 
-Overfull \hbox (0.70392pt too wide) in paragraph at lines 147--147
-[]|\T2A/cmr/m/n/14.4 Несприятливе
+Overfull \hbox (2.69318pt too wide) in paragraph at lines 150--150
+[]|\T2A/faq/m/n/14.4 Несприятливе
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-[]|\T2A/cmr/m/n/14.4 стан систем
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
+[]|\T2A/faq/m/n/14.4 стан систем
  []
 
 
-Underfull \hbox (badness 2717) in paragraph at lines 147--147
-\T2A/cmr/m/n/14.4 природного та
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
+\T2A/faq/m/n/14.4 штучного
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-\T2A/cmr/m/n/14.4 штучного
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
+[]|\T2A/faq/m/n/14.4 МРОР
  []
 
 
-Underfull \hbox (badness 5245) in paragraph at lines 147--147
-\T2A/cmr/m/n/14.4 ѕвї, фон та
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
+\T2A/faq/m/n/14.4 0,3^^U0,5
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-\T2A/cmr/m/n/14.4 контраст
+Underfull \hbox (badness 2126) in paragraph at lines 150--150
+\T2A/faq/m/n/14.4 ѕвї, фон та
  []
 
 
-LaTeX Warning: Command \cyrn invalid in math mode on input line 147.
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
+\T2A/faq/m/n/14.4 контраст
+ []
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 150.
 
 Missing character: There is no н in font cmr10!
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-\OT1/cmr/m/n/14.4 1\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 2 %$\T2A/cmr/m/n/14.4
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
+\OT1/cmr/m/n/14.4 1\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 2 %$\T2A/faq/m/n/14.4
  ;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-\T2A/cmr/m/n/14.4 Освiтленiсть
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
+\T2A/faq/m/n/14.4 Освiтленiсть
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
-[]|\T2A/cmr/m/n/14.4 ДБН
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
+[]|\T2A/faq/m/n/14.4 ДБН
  []
 
 
-Overfull \hbox (9.84425pt too wide) in paragraph at lines 149--149
-[]|\T2A/cmr/m/n/14.4 Несприятливий
+Overfull \hbox (3.46835pt too wide) in paragraph at lines 150--151
+\T2A/faq/m/n/14.4 В.2.5.^^U28^^U18| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\T2A/cmr/m/n/14.4 мi-кро-клi-мат:
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+\T2A/faq/m/n/14.4 вий
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-[]|\T2A/cmr/m/n/14.4 стан систем
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+\T2A/faq/m/n/14.4 мiкроклiмат:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\T2A/cmr/m/n/14.4 опалення та
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+[]|\T2A/faq/m/n/14.4 стан систем
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-[]|\T2A/cmr/m/n/14.4 категорiя
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+\T2A/faq/m/n/14.4 опалення та
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\T2A/cmr/m/n/14.4 важкостi
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+[]|\T2A/faq/m/n/14.4 категорiя
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\T2A/cmr/m/n/14.4 робiт Iа;
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+\T2A/faq/m/n/14.4 важкостi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\T2A/cmr/m/n/14.4 холодний
+Underfull \hbox (badness 10000) in paragraph at lines 152--152
+\T2A/faq/m/n/14.4 робiт
  []
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 149.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\OML/cmm/m/it/14.4 ^^^$
+Underfull \hbox (badness 2443) in paragraph at lines 152--152
+\T2A/faq/m/n/14.4 Iа; холодний
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
-[]|\T2A/cmr/m/n/14.4 ДСН
+LaTeX Warning: Command \textendash invalid in math mode on input line 152.
+
+
+Underfull \hbox (badness 3128) in paragraph at lines 152--152
+\OML/cmm/m/it/14.4 ^^^$ $\OMS/cmsy/m/n/14.4 ^^@$ $\OT1/cmr/m/n/14.4 40 \OMS/cms
+y/m/n/14.4 ^^@
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
-[]|\T2A/cmr/m/n/14.4 Пiдвищений
+Underfull \hbox (badness 7888) in paragraph at lines 152--152
+\T2A/faq/m/n/14.4 бiльше $\OT1/cmr/m/n/14.4 0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/
+14.4 1$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
-[]|\T2A/cmr/m/n/14.4 кондицiонери,
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
+[]|\T2A/faq/m/n/14.4 ДСН
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
-\T2A/cmr/m/n/14.4 кулери,
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[]|\T2A/faq/m/n/14.4 Пiдвищений
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
-\T2A/cmr/m/n/14.4 системи
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[]|\T2A/faq/m/n/14.4 кондицiонери,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
-[]|\T2A/cmr/m/n/14.4 ДСН
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+\T2A/faq/m/n/14.4 кулери,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
-[]|\T2A/cmr/m/n/14.4 загальна
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+\T2A/faq/m/n/14.4 системи
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
-\T2A/cmr/m/n/14.4 технологiчна,
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
+[]|\T2A/faq/m/n/14.4 ДСН
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
-\T2A/cmr/m/n/14.4 категорiя 3,
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
+[]|\T2A/faq/m/n/14.4 загальна
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
-\T2A/cmr/m/n/14.4 тип ѕвї,
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
+\T2A/faq/m/n/14.4 технологiчна,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
-\T2A/cmr/m/n/14.4 умови
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
+\T2A/faq/m/n/14.4 категорiя
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
-\T2A/cmr/m/n/14.4 швид-ко-стi
+Underfull \hbox (badness 4096) in paragraph at lines 156--156
+\T2A/faq/m/n/14.4 3, тип ѕвї,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
-[]|\T2A/cmr/m/n/14.4 ДСТУ
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
+\T2A/faq/m/n/14.4 умови
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
-\T2A/cmr/m/n/14.4 ГОСТ
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
+\T2A/faq/m/n/14.4 швид-ко-стi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
-\T2A/cmr/m/n/14.4 12.1.012:08
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+[]|\T2A/faq/m/n/14.4 ДСТУ
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
-\T2A/cmr/m/n/14.4 ДСН
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+\T2A/faq/m/n/14.4 ГОСТ
  []
 
 
-Overfull \hbox (8.12221pt too wide) in paragraph at lines 155--155
-[]\T2A/cmr/m/n/14.4 Психо^^Uфiзiоло-
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+\T2A/faq/m/n/14.4 12.1.012:08
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+\T2A/faq/m/n/14.4 ДСН
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
+\T2A/faq/m/n/14.4 логiчна
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
+[]\T2A/faq/m/n/14.4 монотоннiсть
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
+\T2A/faq/m/n/14.4 чнiсть
+ []
+
+
+Underfull \hbox (badness 7522) in paragraph at lines 158--158
+\T2A/faq/m/n/14.4 i незручнiсть
+ []
+
+
+Underfull \hbox (badness 6510) in paragraph at lines 158--158
+\T2A/faq/m/n/14.4 умов пра-цi
+ []
+
+
+Underfull \hbox (badness 7433) in paragraph at lines 158--158
+\T2A/faq/m/n/14.4 для на-пру-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
+[]\T2A/faq/m/n/14.4 ГН
+ []
+
+
+Overfull \hbox (5.87314pt too wide) in paragraph at lines 158--158
+\T2A/faq/m/n/14.4 3.3.5^^U8.6.6.1-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
-\T2A/cmr/m/n/14.4 гiчна пе-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
-[]|\T2A/cmr/m/n/14.4 монотоннiсть
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
-\T2A/cmr/m/n/14.4 працi,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
-\T2A/cmr/m/n/14.4 статичнiсть i
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
-\T2A/cmr/m/n/14.4 незручнiсть
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
-\T2A/cmr/m/n/14.4 умов пра-цi
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
-\T2A/cmr/m/n/14.4 для на-пру-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
-[]\T2A/cmr/m/n/14.4 ГН
- []
-
-
-Overfull \hbox (0.89705pt too wide) in paragraph at lines 155--155
-\T2A/cmr/m/n/14.4 3.3.5^^U8.6.6.1^^U 
- []
-
-
-Overfull \hbox (14.0199pt too wide) in paragraph at lines 143--158
+Overfull \hbox (14.0199pt too wide) in paragraph at lines 146--161
 [][] 
  []
 
 [6]
-Underfull \hbox (badness 2205) in paragraph at lines 162--162
-| \T2A/cmr/bx/n/14.4 1.2Захист вiд шкiдливого впливу факторiв виробничого
+Underfull \hbox (badness 4846) in paragraph at lines 165--165
+| \T2A/faq/bx/n/14.4 1.2Захист вiд шкiдливого впливу факторiв виробничого
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
-[]\T2A/cmr/m/n/14.4 Пiдтримка оптимальних параметрiв
+Underfull \hbox (badness 4378) in paragraph at lines 167--168
+\T2A/faq/m/n/14.4 здiйсню№ться вiдповiдно вимог ДБН В.2.5-67:2013 за допомогою
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 175--176
-\T2A/cmr/m/n/14.4 через вiкна визначеноЁ площини, яка розрахову№ться при проект
-уваннi
+Underfull \hbox (badness 3547) in paragraph at lines 167--168
+\T2A/faq/m/n/14.4 природнього провiтрювання примiщення. У холодний перiод року
  []
 
 
-Underfull \hbox (badness 3148) in paragraph at lines 179--180
-\T2A/cmr/m/n/14.4 вiдбиту блискiсть на робочих поверхнях. Необхiдно чистити вiк
-на i
+Underfull \hbox (badness 3815) in paragraph at lines 178--179
+[]\T2A/faq/m/n/14.4 Визначений в таблицi 1.6[] коефiцi№нт природного освiтлення
+
+ []
+
+
+Underfull \hbox (badness 1478) in paragraph at lines 180--181
+\T2A/faq/m/n/14.4 як джерела свiтла мають застосовуватись переважно люмiнiсцент
+нi
+ []
+
+
+Underfull \hbox (badness 5331) in paragraph at lines 182--183
+[]\T2A/faq/m/n/14.4 Система загального освiтлення ма№ становити суцiльнi або
+ []
+
+
+Underfull \hbox (badness 2556) in paragraph at lines 182--183
+\T2A/faq/m/n/14.4 обмеження прямоЁ блискостi вiд джерел природного та штучного
  []
 
 [7]
-Underfull \hbox (badness 1057) in paragraph at lines 187--188
-[]\T2A/cmr/m/n/14.4 Персональна ЕОМ № однофазним споживачем електроенергiЁ, яки
-й
+Underfull \hbox (badness 1655) in paragraph at lines 184--185
+\T2A/faq/m/n/14.4 слiд застосовувати засоби звукопоглинання, наприклад, перфоро
+ванi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--190
-\T2A/cmr/m/n/14.4 пiд напругою, або появi напруги дотику
+Underfull \hbox (badness 3354) in paragraph at lines 192--193
+[]\T2A/faq/m/n/14.4 У разi випадкового дотику до струмопровiдних частин, що
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--194
-\T2A/cmr/m/n/14.4 струмом ПУЕ передбаченi
+Underfull \hbox (badness 1616) in paragraph at lines 192--193
+\T2A/faq/m/n/14.4 електроустаткування, наприклад, при пошкодженнi iзоляцiЁ можл
+ивi
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 196--197
-\T2A/cmr/m/n/14.4 вимкнутому живленнi в мережi;
+[]\T2A/faq/m/n/14.4 Для примiщень з пiдвищеною небезпекою
  []
 
 [8]
-Underfull \hbox (badness 1264) in paragraph at lines 197--198
-\T2A/cmr/m/n/14.4 в кожухах. Вибира№мо ступiнь захисту оболонки вiд зiткнення
+Underfull \hbox (badness 2020) in paragraph at lines 206--207
+\T2A/faq/m/n/14.4 разiв ($[]$) перевищить номiнальний струм апарату захисту ($[
+][]$),
  []
 
 
-Underfull \hbox (badness 1721) in paragraph at lines 198--199
-[]\T2A/cmr/m/n/14.4 Як схемно-конструктивна мiра безпеки застосову№ться подвiйн
+Underfull \hbox (badness 1629) in paragraph at lines 206--207
+\T2A/faq/m/n/14.4 що забезпечить селективне вiдключення споживача, тобто повинн
 а
- []
-
-
-Underfull \hbox (badness 5374) in paragraph at lines 198--199
-\T2A/cmr/m/n/14.4 iзоляцiя (для монiтору), малi напруги до 42 В, занулення
- []
-
-
-Underfull \hbox (badness 5091) in paragraph at lines 198--199
-\T2A/cmr/m/n/14.4 (так як мережа живлення до 1000 В з глухо заземленою
  []
 
 [9]
 
-LaTeX Warning: Command \CYRII invalid in math mode on input line 227.
+LaTeX Warning: Command \CYRII invalid in math mode on input line 230.
 
 
-LaTeX Warning: Command \CYRR invalid in math mode on input line 227.
-
-Missing character: There is no Р in font cmr12!
-
-Underfull \hbox (badness 3333) in paragraph at lines 227--228
-[]\T2A/cmr/m/n/14.4 Визначення струму $\OML/cmm/m/it/14.4 I[]$ \T2A/cmr/m/n/14.
-4 в А, що живить електроустановку (ЕУ)
- []
-
-
-LaTeX Warning: Command \CYRII invalid in math mode on input line 235.
-
-
-LaTeX Warning: Command \CYRR invalid in math mode on input line 235.
+LaTeX Warning: Command \CYRR invalid in math mode on input line 230.
 
 Missing character: There is no Р in font cmr12!
 
 LaTeX Warning: Command \CYRII invalid in math mode on input line 238.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--246
+LaTeX Warning: Command \CYRR invalid in math mode on input line 238.
+
+Missing character: There is no Р in font cmr12!
+
+LaTeX Warning: Command \CYRII invalid in math mode on input line 241.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--249
 
  []
 
 
-LaTeX Warning: Command \CYRII invalid in math mode on input line 252.
+LaTeX Warning: Command \CYRII invalid in math mode on input line 255.
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 278--279
-[]\T2A/cmr/m/n/14.4 Величина $\OML/cmm/m/it/14.4 Z[]$ \T2A/cmr/m/n/14.4 залежит
-ь вiд
+Underfull \hbox (badness 10000) in paragraph at lines 281--282
+[]\T2A/faq/m/n/14.4 Величина $\OML/cmm/m/it/14.4 Z[]$ \T2A/faq/m/n/14.4 залежит
+ь вiд потужностi
+ []
+
+
+Underfull \hbox (badness 1917) in paragraph at lines 291--292
+[]\T2A/faq/m/n/14.4 Отже, $\OML/cmm/m/it/14.4 Z[] \OT1/cmr/m/n/14.4 = 3\OML/cmm
+/m/it/14.4 ; \OT1/cmr/m/n/14.4 110 []$\T2A/faq/m/n/14.4 , так як ми обира№мо тр
+ансформатор
  []
 
 [11]
+Underfull \hbox (badness 2326) in paragraph at lines 312--314
+\T2A/faq/m/n/14.4 де $\OML/cmm/m/it/14.4 X[];  X[]$ $\OMS/cmsy/m/n/14.4 ^^@$ \T
+2A/faq/m/n/14.4 внутрiшнi iндуктивнi опори фазового i нульового
+ []
 
-LaTeX Warning: Command \CYRH invalid in math mode on input line 314.
+
+LaTeX Warning: Command \CYRH invalid in math mode on input line 317.
 
 Missing character: There is no Х in font cmr12!
 
-LaTeX Warning: Command \CYRH invalid in math mode on input line 314.
+LaTeX Warning: Command \CYRH invalid in math mode on input line 317.
 
 Missing character: There is no Х in font cmr12!
 
-LaTeX Warning: Command \CYRH invalid in math mode on input line 316.
+LaTeX Warning: Command \CYRH invalid in math mode on input line 319.
 
 Missing character: There is no Х in font cmr12!
 [12]
 
-LaTeX Warning: Command \CYRII invalid in math mode on input line 373.
+LaTeX Warning: Command \CYRII invalid in math mode on input line 376.
 
 
-Underfull \hbox (badness 1057) in paragraph at lines 405--405
-| \T2A/cmr/bx/n/14.4 1.4Перевiрка виконання умов надiйностi та ефективностi
+Underfull \hbox (badness 3942) in paragraph at lines 392--393
+[]\T2A/faq/m/n/14.4 Площа перерiзу нульового робочого та нульового захисного
  []
 
-[13] [14]
-Underfull \hbox (badness 3525) in paragraph at lines 453--454
-\T2A/cmr/m/n/14.4 середовища i запобiгання утворенню в пальному середовищi джер
-ел
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 459--460
-[]\T2A/cmr/m/n/14.4 забезпечення захисту вiд короткого замикання (контроль i
+[13]
+Underfull \hbox (badness 2401) in paragraph at lines 408--408
+| \T2A/faq/bx/n/14.4 1.4Перевiрка виконання умов надiйностi та ефективностi
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 460--461
-[]\T2A/cmr/m/n/14.4 вибiр перетину провiдникiв по максимально допустимому
+Underfull \hbox (badness 1748) in paragraph at lines 440--441
+[]\T2A/faq/m/n/14.4 В нашому випадку $\OML/cmm/m/it/14.4 U[] \OT1/cmr/m/n/14.4 
+= 0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 39\OML/cmm/m/it/14.4 ;  U[] \OT1/cmr/
+m/n/14.4 = 4\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 90\OML/cmm/m/it/14.4 :$ \T2A
+/faq/m/n/14.4 Обидвi умови
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 464--465
-\T2A/cmr/m/n/14.4 вiд можливостi поразки електричним струмом у
+Underfull \hbox (badness 3219) in paragraph at lines 442--443
+[]\T2A/faq/m/n/14.4 В результатi розрахунку у якостi запобiжника було обрано
+ []
+
+[14]
+Underfull \hbox (badness 1102) in paragraph at lines 446--447
+\T2A/faq/m/n/14.4 обладнання, пошкодження iзоляцiЁ, коротке замикання кола стру
+му,
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 456--457
+[]\T2A/faq/m/n/14.4 Система запобiгання пожеж передбача№ запобiгання утворенню
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 467--468
+\T2A/faq/m/n/14.4 гасiння пожежi. При виборi
  []
 
 [15]
-Underfull \hbox (badness 1859) in paragraph at lines 470--471
-[]\T2A/cmr/m/n/14.4 У зв'язку з прискореним темпом промисловоЁ революцiЁ виникл
-и
+Underfull \hbox (badness 1708) in paragraph at lines 475--476
+[]\T2A/faq/m/n/14.4 Як зазначено у Законi УкраЁни ѕПро охорону навколишнього
  []
 
 
-Underfull \hbox (badness 6364) in paragraph at lines 472--473
-[]\T2A/cmr/m/n/14.4 Як зазначено у Законi УкраЁни ѕПро охорону навколишнього
+Underfull \hbox (badness 2980) in paragraph at lines 475--476
+\T2A/faq/m/n/14.4 середовище господарськоЁ й iншоЁ дiяльностi людини, збереженн
+я
+ []
+
+[16]
+Underfull \hbox (badness 7468) in paragraph at lines 481--482
+[]\T2A/faq/m/n/14.4 У стандартi ТСО-99 закладене обмеження за кадмi№м у
  []
 
 
-Underfull \hbox (badness 1803) in paragraph at lines 472--473
-\T2A/cmr/m/n/14.4 природного середовищаї, прийнятого 25 червня 1991 року, основ
-ними
+Underfull \hbox (badness 5802) in paragraph at lines 481--482
+\T2A/faq/m/n/14.4 якi визивають алергiчну реакцiю. ГДК пилу дорiвню№ $\OT1/cmr/
+m/n/14.4 0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 15 []$\T2A/faq/m/n/14.4 ,
  []
 
 
-Underfull \hbox (badness 5064) in paragraph at lines 472--473
-\T2A/cmr/m/n/14.4 i вiдтворення природних ресурсiв, забезпечення екологiчноЁ бе
-зпеки,
+Underfull \hbox (badness 1436) in paragraph at lines 483--484
+[]\T2A/faq/m/n/14.4 Дотримання приведених нормативних параметрiв небезпечних i
  []
 
-
-Underfull \hbox (badness 7451) in paragraph at lines 480--481
-[]\T2A/cmr/m/n/14.4 Дотримання приведених нормативних параметрiв небезпечних i
- []
-
-[16]) [17] 
+) [17] 
 AED: lastpage setting LastPage
-(./Example.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+(./Example.aux) ) 
 Here is how much of TeX's memory you used:
- 9138 strings out of 494398
- 139262 string characters out of 6172313
- 312844 words of memory out of 5000000
- 12280 multiletter control sequences out of 15000+600000
- 10566 words of font info for 31 fonts, out of 8000000 for 9000
- 430 hyphenation exceptions out of 8191
- 42i,17n,51p,8836b,375s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 9652 strings out of 493029
+ 141568 string characters out of 6136234
+ 289250 words of memory out of 5000000
+ 12935 multiletter control sequences out of 15000+600000
+ 15473 words of font info for 32 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 47i,17n,50p,1592b,383s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/pscyr/t2a.enc}</usr/share/te
+xmf/fonts/type1/public/pscyr/antiq6.pfb></usr/share/texmf/fonts/type1/public/ps
+cyr/antiq7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on Example.pdf (17 pages, 144676 bytes).
+PDF statistics:
+ 105 PDF objects out of 1000 (max. 8388607)
+ 70 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on Example.dvi (17 pages, 56572 bytes).
