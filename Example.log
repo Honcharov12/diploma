@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2020.12.16)  15 APR 2021 19:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=latex 2020.12.16)  16 APR 2021 17:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1174,1118 +1174,143 @@ Package caption Warning: \caption will not be redefined since it's already
 See the caption package documentation for explanation.
 
 Package caption Info: End \AtBeginDocument code.
-(./Work.tex
-Underfull \hbox (badness 1406) in paragraph at lines 6--7
-[]\T2A/cmr/m/n/14.4 Роздiл виконано для етапу розробки на ЕОМ системи створення
+(./Defence.tex
+LaTeX Font Info:    Try loading font information for U+msa on input line 4.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Underfull \hbox (badness 1742) in paragraph at lines 4--5
+[]\T2A/cmr/m/n/14.4 Цивiльний захист $\OMS/cmsy/m/n/14.4 ^^@$ \T2A/cmr/m/n/14.4
+ це функцiя держави, спрямована на захист
  []
 
 
-Underfull \hbox (badness 2790) in paragraph at lines 6--7
-\T2A/cmr/m/n/14.4 програмного комплексу для аналiзу роботи алгоритмiв порiвняль
-ного
+Underfull \hbox (badness 1902) in paragraph at lines 8--9
+\T2A/cmr/m/n/14.4 зростання втрат людей i шкоди територiям у результатi небезпе
+чних
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-[]\T2A/cmr/m/n/14.4 Обладнання, примiщення i режим працi користувача повиннi
- []
-
-
-Underfull \hbox (badness 6825) in paragraph at lines 17--18
-[]\T2A/cmr/m/n/14.4 ДСН 3.3.6.042-99. Санiтарнi норми мiкроклiмату виробничих
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-[]\T2A/cmr/m/n/14.4 НПАОП 40.1-1.32-01. Правила будови електроустановок.
- []
-
-
-Underfull \hbox (badness 4543) in paragraph at lines 24--25
-[]\T2A/cmr/m/n/14.4 ДСТУ ГОСТ 7237:2011. Електробезпека. Загальнi вимоги та
+Underfull \hbox (badness 5077) in paragraph at lines 10--11
+[]\T2A/cmr/m/n/14.4 Рiвень нацiональноЁ безпеки не може бути достатнiм, якщо в
  []
 
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
-[]\T2A/cmr/m/n/14.4 Загальна характеристика виробничого примiщення, в якому
- []
-
-LaTeX Font Info:    Try loading font information for U+msa on input line 38.
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 38.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Overfull \hbox (4.51526pt too wide) in paragraph at lines 40--40
-[]|\T2A/cmr/m/n/14.4 Найменування
+Underfull \hbox (badness 1168) in paragraph at lines 25--26
+[]\T2A/cmr/m/n/14.4 Оповiщення про загрозу виникнення НС i постiйне iнформуванн
+я
  []
 
 
-Overfull \hbox (5.30669pt too wide) in paragraph at lines 40--40
-[]|\T2A/cmr/m/n/14.4 Характеристика
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+[]\T2A/cmr/m/n/14.4 завчасного
  []
 
 
-Overfull \hbox (7.04501pt too wide) in paragraph at lines 40--40
-[]|\T2A/cmr/m/n/14.4 Об рунтування
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+[]\T2A/cmr/m/n/14.4 органiзацiйно-технiчного
  []
 
 
-Underfull \hbox (badness 3977) in paragraph at lines 40--40
-\T2A/cmr/m/n/14.4 н-ня по-ка-зни-
+Underfull \hbox (badness 2941) in paragraph at lines 30--31
+\T2A/cmr/m/n/14.4 спостереження i контролю постiйно дiючих локальних систем
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
-[]|\T2A/cmr/m/n/14.4 Документ,
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+\T2A/cmr/m/n/14.4 зв'язку: радiо, провiдного, телевiзiйного
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
-\T2A/cmr/m/n/14.4 що
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+[]\T2A/cmr/m/n/14.4 Завивання сирен, переривистi гудки пiдпри№мств та сигнали
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
-\T2A/cmr/m/n/14.4 регламенту№
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
-[]|\T2A/cmr/m/n/14.4 1. Розмiри
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
-\T2A/cmr/m/n/14.4 примiщення
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
-\T2A/cmr/m/n/14.4 з ЕОМ не
- []
-
-
-Overfull \vbox (39.90343pt too high) detected at line 42
- []
-
-
-Overfull \hbox (4.83432pt too wide) in paragraph at lines 42--42
-[]|[]| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
-[]\T2A/cmr/m/n/14.4 фактично
- []
-
-
-Overfull \vbox (62.47017pt too high) detected at line 42
- []
-
-
-Overfull \hbox (7.25516pt too wide) in paragraph at lines 42--43
-[]|[]| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-[]|\T2A/cmr/m/n/14.4 2. Кiлькiсть
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-\T2A/cmr/m/n/14.4 робочих
- []
-
-
-Overfull \hbox (14.0199pt too wide) in paragraph at lines 38--47
-[][] 
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+[]\T2A/cmr/m/n/14.4 Для сво№часного попередження населення введенi сигнали
  []
 
 [2]
-Overfull \hbox (4.51526pt too wide) in paragraph at lines 59--59
-[]|\T2A/cmr/m/n/14.4 Найменування
+Underfull \hbox (badness 3724) in paragraph at lines 44--45
+[]\T2A/cmr/m/n/14.4 "Аварiя на атомнiй електростанцiЁ". Повiдомляються мiсце, ч
+ас,
  []
 
 
-Overfull \hbox (5.30669pt too wide) in paragraph at lines 59--59
-[]|\T2A/cmr/m/n/14.4 Характеристика
- []
-
-
-Overfull \hbox (7.04501pt too wide) in paragraph at lines 59--59
-[]|\T2A/cmr/m/n/14.4 Об рунтування
- []
-
-
-Underfull \hbox (badness 3977) in paragraph at lines 59--59
-\T2A/cmr/m/n/14.4 н-ня по-ка-зни-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--59
-[]|\T2A/cmr/m/n/14.4 Документ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--59
-\T2A/cmr/m/n/14.4 що
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 59--59
-\T2A/cmr/m/n/14.4 регламенту№
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
-[]\T2A/cmr/m/n/14.4 1. Природне
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
-\T2A/cmr/m/n/14.4 освiтлення,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
-\T2A/cmr/m/n/14.4 вiкна
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
-\T2A/cmr/m/n/14.4 виходять на
- []
-
-
-Overfull \vbox (62.00348pt too high) detected at line 61
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
-\T2A/cmr/m/n/14.4 сто-рон-н№;
- []
-
-
-Overfull \vbox (18.27007pt too high) detected at line 61
- []
-
-
-Underfull \hbox (badness 1527) in paragraph at lines 61--61
-[]|\T2A/cmr/m/n/14.4 див. таблицю
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
-[]|\T2A/cmr/m/n/14.4 ДБН
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-[]|\T2A/cmr/m/n/14.4 КПО не
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-[]|\T2A/cmr/m/n/14.4 ДСанПiН
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-[]\T2A/cmr/m/n/14.4 2. Штучне
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-\T2A/cmr/m/n/14.4 освiтлення,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-\T2A/cmr/m/n/14.4 кiлькiсть
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-\T2A/cmr/m/n/14.4 свiтильникiв
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-\T2A/cmr/m/n/14.4 N; джерела
- []
-
-
-Overfull \vbox (81.77014pt too high) detected at line 65
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-[]\T2A/cmr/m/n/14.4 загальне
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-\T2A/cmr/m/n/14.4 рiв-но-мiр-не;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-\T2A/cmr/m/n/14.4 N=10; лю-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-\T2A/cmr/m/n/14.4 мi-не-сцен-тнi
- []
-
-
-Overfull \vbox (59.67009pt too high) detected at line 65
- []
-
-
-Underfull \hbox (badness 1527) in paragraph at lines 65--65
-[]|\T2A/cmr/m/n/14.4 див. таблицю
- []
-
-
-Underfull \hbox (badness 3158) in paragraph at lines 65--65
-[]|\T2A/cmr/m/n/14.4 ДБН В.2.5.-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
-[]|\T2A/cmr/m/n/14.4 ДСанПiН
- []
-
-
-Overfull \hbox (14.0199pt too wide) in paragraph at lines 57--70
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
-[]|\T2A/cmr/m/n/14.4 Найменування
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
-[]|\T2A/cmr/m/n/14.4 Характеристика
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
-[]|\T2A/cmr/m/n/14.4 Об рунтування
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
-[]|\T2A/cmr/m/n/14.4 Документ, що
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
-[]|\T2A/cmr/m/n/14.4 1. Категорiя
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
-\T2A/cmr/m/n/14.4 примiщення з
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
-\T2A/cmr/m/n/14.4 вибухо^^Uпожеже
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--84
-\T2A/cmr/m/n/14.4 матерiали:
- []
-
-
-Underfull \hbox (badness 4556) in paragraph at lines 84--84
-\T2A/cmr/m/n/14.4 папiр, деревина
- []
-
-
-Underfull \hbox (badness 1478) in paragraph at lines 84--85
-[]|\T2A/cmr/m/n/14.4 ДСТУ Б В.1.1-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--86
-[]|\T2A/cmr/m/n/14.4 2. Ступiнь
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--86
-\T2A/cmr/m/n/14.4 вогнестiйкостi
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--86
-\T2A/cmr/m/n/14.4 будiвельних
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--86
-[]|\T2A/cmr/m/n/14.4 5-и поверхова
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--86
-\T2A/cmr/m/n/14.4 будiвля;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
-[]|\T2A/cmr/m/n/14.4 ДБН
+Underfull \hbox (badness 1132) in paragraph at lines 52--53
+\T2A/cmr/m/n/14.4 сусiдiв про стихiйне лихо i надалi слухати iнформацiю штабу о
+рганiв
  []
 
 [3]
-Overfull \hbox (4.51526pt too wide) in paragraph at lines 101--101
-[]|\T2A/cmr/m/n/14.4 Найменування
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+[]\T2A/cmr/m/n/14.4 Сигнал
  []
 
 
-Overfull \hbox (5.30669pt too wide) in paragraph at lines 101--101
-[]|\T2A/cmr/m/n/14.4 Характеристика
+Underfull \hbox (badness 1655) in paragraph at lines 66--67
+[]\T2A/cmr/m/n/14.4 Сигнал "Радiацiйна небезпека"пода№ться в населених пунктах 
+i в
  []
 
 
-Overfull \hbox (7.04501pt too wide) in paragraph at lines 101--101
-[]|\T2A/cmr/m/n/14.4 Об рунтування
- []
-
-
-Underfull \hbox (badness 3977) in paragraph at lines 101--101
-\T2A/cmr/m/n/14.4 н-ня по-ка-зни-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
-[]|\T2A/cmr/m/n/14.4 Документ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
-\T2A/cmr/m/n/14.4 що
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
-\T2A/cmr/m/n/14.4 регламенту№
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
-[]|\T2A/cmr/m/n/14.4 чотири
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
-\T2A/cmr/m/n/14.4 провiдна з
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
-\T2A/cmr/m/n/14.4 глухо
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
-\T2A/cmr/m/n/14.4 заземленою
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
-\T2A/cmr/m/n/14.4 нейтраллю
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
-\T2A/cmr/m/n/14.4 напругою
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
-\T2A/cmr/m/n/14.4 380/220 В,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
-\T2A/cmr/m/n/14.4 мережi
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
-\T2A/cmr/m/n/14.4 великоЁ
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
-\T2A/cmr/m/n/14.4 мi-ще-н-ня за
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
-\T2A/cmr/m/n/14.4 сту-пе-нем
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
-\T2A/cmr/m/n/14.4 не-без-пе-ки
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
-\T2A/cmr/m/n/14.4 ура-же-н-ня
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
-\T2A/cmr/m/n/14.4 еле-ктро-стру-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
-[]|\T2A/cmr/m/n/14.4 з пiдвищеною
- []
-
-
-Underfull \hbox (badness 1960) in paragraph at lines 105--105
-[]|\T2A/cmr/m/n/14.4 № мо-жли-вiсть
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
-\T2A/cmr/m/n/14.4 одно-ча-сно-го
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
-\T2A/cmr/m/n/14.4 та-ло-кон-стру-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
-\T2A/cmr/m/n/14.4 кцiй бу-дiв-лi,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
-\T2A/cmr/m/n/14.4 що ма-ють
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
-\T2A/cmr/m/n/14.4 з'№днання з
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--105
-\T2A/cmr/m/n/14.4 зем-лею, та
- []
-
-
-Underfull \hbox (badness 2269) in paragraph at lines 105--105
-\T2A/cmr/m/n/14.4 до ме-та-ле-вих
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
-[]|\T2A/cmr/m/n/14.4 необхiдно
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
-\T2A/cmr/m/n/14.4 передбачити
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
-\T2A/cmr/m/n/14.4 заходи
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
-\T2A/cmr/m/n/14.4 безпеки
- []
-
-
-Overfull \hbox (14.0199pt too wide) in paragraph at lines 99--108
-[][] 
+Underfull \hbox (badness 1484) in paragraph at lines 68--69
+\T2A/cmr/m/n/14.4 протипилову пов'язку, ватно-марлеву маску або протигаз, взяти
+ запас
  []
 
 [4]
-Underfull \hbox (badness 1748) in paragraph at lines 114--115
-\T2A/cmr/m/n/14.4 працюючого може призводити в певних умовах до захворювання аб
-о
+Underfull \hbox (badness 4303) in paragraph at lines 86--87
+[]\T2A/cmr/m/n/14.4 способи захисту населення при радiоактивному та хiмiчному
  []
 
 
-Underfull \hbox (badness 3601) in paragraph at lines 116--117
-[]\T2A/cmr/m/n/14.4 Згiдно з державним стандартом шкiдливi i небезпечнi фактори
-
- []
-
-
-Underfull \hbox (badness 2564) in paragraph at lines 116--117
-\T2A/cmr/m/n/14.4 по природi Ёх впливу подiляються на фiзичнi, хiмiчнi, бiологi
-чнi та
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--128
-[]|\T2A/cmr/m/n/14.4 Назва
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--128
-[]|\T2A/cmr/m/n/14.4 Джерела
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--128
-[]|\T2A/cmr/m/n/14.4 Нормативнi
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--128
-\T2A/cmr/m/n/14.4 параметри,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
-[]|\T2A/cmr/m/n/14.4 Документ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
-\T2A/cmr/m/n/14.4 що
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
-\T2A/cmr/m/n/14.4 регламенту№
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--130
-[]|\T2A/cmr/m/n/14.4 Висока
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--130
-\T2A/cmr/m/n/14.4 електрична
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--130
-[]|\T2A/cmr/m/n/14.4 мережа
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--130
-\T2A/cmr/m/n/14.4 живлення
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--130
-[]|\T2A/cmr/m/n/14.4 нормальний
- []
-
-
-LaTeX Warning: Command \CYRII invalid in math mode on input line 130.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--130
-\OT1/cmr/m/n/14.4 0\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 3$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--131
-[]|\T2A/cmr/m/n/14.4 ДСТУ
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--131
-\T2A/cmr/m/n/14.4 ГОСТ
- []
-
-
-Overfull \hbox (14.0199pt too wide) in paragraph at lines 126--133
-[][] 
- []
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-[]|\T2A/cmr/m/n/14.4 Назва
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-[]|\T2A/cmr/m/n/14.4 Джерела
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-[]|\T2A/cmr/m/n/14.4 Нормативнi
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-\T2A/cmr/m/n/14.4 параметри,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
-[]|\T2A/cmr/m/n/14.4 Документ,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
-\T2A/cmr/m/n/14.4 що
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 145--146
-\T2A/cmr/m/n/14.4 регламенту№
- []
-
-
-Overfull \hbox (0.70392pt too wide) in paragraph at lines 147--147
-[]|\T2A/cmr/m/n/14.4 Несприятливе
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-[]|\T2A/cmr/m/n/14.4 стан систем
- []
-
-
-Underfull \hbox (badness 2717) in paragraph at lines 147--147
-\T2A/cmr/m/n/14.4 природного та
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-\T2A/cmr/m/n/14.4 штучного
- []
-
-
-Underfull \hbox (badness 5245) in paragraph at lines 147--147
-\T2A/cmr/m/n/14.4 ѕвї, фон та
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-\T2A/cmr/m/n/14.4 контраст
- []
-
-
-LaTeX Warning: Command \cyrn invalid in math mode on input line 147.
-
-Missing character: There is no н in font cmr10!
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-\OT1/cmr/m/n/14.4 1\OML/cmm/m/it/14.4 ; \OT1/cmr/m/n/14.4 2 %$\T2A/cmr/m/n/14.4
- ;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-\T2A/cmr/m/n/14.4 Освiтленiсть
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
-[]|\T2A/cmr/m/n/14.4 ДБН
- []
-
-
-Overfull \hbox (9.84425pt too wide) in paragraph at lines 149--149
-[]|\T2A/cmr/m/n/14.4 Несприятливий
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\T2A/cmr/m/n/14.4 мi-кро-клi-мат:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-[]|\T2A/cmr/m/n/14.4 стан систем
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\T2A/cmr/m/n/14.4 опалення та
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-[]|\T2A/cmr/m/n/14.4 категорiя
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\T2A/cmr/m/n/14.4 важкостi
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\T2A/cmr/m/n/14.4 робiт Iа;
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\T2A/cmr/m/n/14.4 холодний
- []
-
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 149.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-\OML/cmm/m/it/14.4 ^^^$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
-[]|\T2A/cmr/m/n/14.4 ДСН
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
-[]|\T2A/cmr/m/n/14.4 Пiдвищений
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
-[]|\T2A/cmr/m/n/14.4 кондицiонери,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
-\T2A/cmr/m/n/14.4 кулери,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
-\T2A/cmr/m/n/14.4 системи
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
-[]|\T2A/cmr/m/n/14.4 ДСН
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
-[]|\T2A/cmr/m/n/14.4 загальна
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
-\T2A/cmr/m/n/14.4 технологiчна,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
-\T2A/cmr/m/n/14.4 категорiя 3,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
-\T2A/cmr/m/n/14.4 тип ѕвї,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
-\T2A/cmr/m/n/14.4 умови
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
-\T2A/cmr/m/n/14.4 швид-ко-стi
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
-[]|\T2A/cmr/m/n/14.4 ДСТУ
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
-\T2A/cmr/m/n/14.4 ГОСТ
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
-\T2A/cmr/m/n/14.4 12.1.012:08
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
-\T2A/cmr/m/n/14.4 ДСН
- []
-
-
-Overfull \hbox (8.12221pt too wide) in paragraph at lines 155--155
-[]\T2A/cmr/m/n/14.4 Психо^^Uфiзiоло-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
-\T2A/cmr/m/n/14.4 гiчна пе-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
-[]|\T2A/cmr/m/n/14.4 монотоннiсть
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
-\T2A/cmr/m/n/14.4 працi,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
-\T2A/cmr/m/n/14.4 статичнiсть i
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
-\T2A/cmr/m/n/14.4 незручнiсть
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
-\T2A/cmr/m/n/14.4 умов пра-цi
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
-\T2A/cmr/m/n/14.4 для на-пру-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--155
-[]\T2A/cmr/m/n/14.4 ГН
- []
-
-
-Overfull \hbox (0.89705pt too wide) in paragraph at lines 155--155
-\T2A/cmr/m/n/14.4 3.3.5^^U8.6.6.1^^U 
- []
-
-
-Overfull \hbox (14.0199pt too wide) in paragraph at lines 143--158
-[][] 
- []
-
-[6]
-Underfull \hbox (badness 2205) in paragraph at lines 162--162
-| \T2A/cmr/bx/n/14.4 1.2Захист вiд шкiдливого впливу факторiв виробничого
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
-[]\T2A/cmr/m/n/14.4 Пiдтримка оптимальних параметрiв
- []
-
-
-Underfull \hbox (badness 1210) in paragraph at lines 175--176
-\T2A/cmr/m/n/14.4 через вiкна визначеноЁ площини, яка розрахову№ться при проект
-уваннi
- []
-
-
-Underfull \hbox (badness 3148) in paragraph at lines 179--180
-\T2A/cmr/m/n/14.4 вiдбиту блискiсть на робочих поверхнях. Необхiдно чистити вiк
-на i
- []
-
-[7]
-Underfull \hbox (badness 1057) in paragraph at lines 187--188
-[]\T2A/cmr/m/n/14.4 Персональна ЕОМ № однофазним споживачем електроенергiЁ, яки
-й
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 189--190
-\T2A/cmr/m/n/14.4 пiд напругою, або появi напруги дотику
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 193--194
-\T2A/cmr/m/n/14.4 струмом ПУЕ передбаченi
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--197
-\T2A/cmr/m/n/14.4 вимкнутому живленнi в мережi;
- []
-
-[8]
-Underfull \hbox (badness 1264) in paragraph at lines 197--198
-\T2A/cmr/m/n/14.4 в кожухах. Вибира№мо ступiнь захисту оболонки вiд зiткнення
- []
-
-
-Underfull \hbox (badness 1721) in paragraph at lines 198--199
-[]\T2A/cmr/m/n/14.4 Як схемно-конструктивна мiра безпеки застосову№ться подвiйн
-а
- []
-
-
-Underfull \hbox (badness 5374) in paragraph at lines 198--199
-\T2A/cmr/m/n/14.4 iзоляцiя (для монiтору), малi напруги до 42 В, занулення
- []
-
-
-Underfull \hbox (badness 5091) in paragraph at lines 198--199
-\T2A/cmr/m/n/14.4 (так як мережа живлення до 1000 В з глухо заземленою
- []
-
-[9]
-
-LaTeX Warning: Command \CYRII invalid in math mode on input line 227.
-
-
-LaTeX Warning: Command \CYRR invalid in math mode on input line 227.
-
-Missing character: There is no Р in font cmr12!
-
-Underfull \hbox (badness 3333) in paragraph at lines 227--228
-[]\T2A/cmr/m/n/14.4 Визначення струму $\OML/cmm/m/it/14.4 I[]$ \T2A/cmr/m/n/14.
-4 в А, що живить електроустановку (ЕУ)
- []
-
-
-LaTeX Warning: Command \CYRII invalid in math mode on input line 235.
-
-
-LaTeX Warning: Command \CYRR invalid in math mode on input line 235.
-
-Missing character: There is no Р in font cmr12!
-
-LaTeX Warning: Command \CYRII invalid in math mode on input line 238.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 241--246
-
- []
-
-
-LaTeX Warning: Command \CYRII invalid in math mode on input line 252.
-
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 278--279
-[]\T2A/cmr/m/n/14.4 Величина $\OML/cmm/m/it/14.4 Z[]$ \T2A/cmr/m/n/14.4 залежит
-ь вiд
- []
-
-[11]
-
-LaTeX Warning: Command \CYRH invalid in math mode on input line 314.
-
-Missing character: There is no Х in font cmr12!
-
-LaTeX Warning: Command \CYRH invalid in math mode on input line 314.
-
-Missing character: There is no Х in font cmr12!
-
-LaTeX Warning: Command \CYRH invalid in math mode on input line 316.
-
-Missing character: There is no Х in font cmr12!
-[12]
-
-LaTeX Warning: Command \CYRII invalid in math mode on input line 373.
-
-
-Underfull \hbox (badness 1057) in paragraph at lines 405--405
-| \T2A/cmr/bx/n/14.4 1.4Перевiрка виконання умов надiйностi та ефективностi
- []
-
-[13] [14]
-Underfull \hbox (badness 3525) in paragraph at lines 453--454
-\T2A/cmr/m/n/14.4 середовища i запобiгання утворенню в пальному середовищi джер
-ел
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 459--460
-[]\T2A/cmr/m/n/14.4 забезпечення захисту вiд короткого замикання (контроль i
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 460--461
-[]\T2A/cmr/m/n/14.4 вибiр перетину провiдникiв по максимально допустимому
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 464--465
-\T2A/cmr/m/n/14.4 вiд можливостi поразки електричним струмом у
- []
-
-[15]
-Underfull \hbox (badness 1859) in paragraph at lines 470--471
-[]\T2A/cmr/m/n/14.4 У зв'язку з прискореним темпом промисловоЁ революцiЁ виникл
-и
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+[]\T2A/cmr/m/n/14.4 лiквiдацiя наслiдкiв зараження, спецiальна
  []
-
 
-Underfull \hbox (badness 6364) in paragraph at lines 472--473
-[]\T2A/cmr/m/n/14.4 Як зазначено у Законi УкраЁни ѕПро охорону навколишнього
+)
+Underfull \hbox (badness 3199) in paragraph at lines 93--221
+\T2A/cmr/m/n/14.4 в життя заходiв iз оповiщення населення в умовах НС, в разi Ё
+х
  []
 
+[5] [6] (./Literature.tex
+LaTeX Font Info:    Try loading font information for T2A+cmss on input line 2.
 
-Underfull \hbox (badness 1803) in paragraph at lines 472--473
-\T2A/cmr/m/n/14.4 природного середовищаї, прийнятого 25 червня 1991 року, основ
-ними
- []
+(/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmss.fd
+File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
 
-
-Underfull \hbox (badness 5064) in paragraph at lines 472--473
-\T2A/cmr/m/n/14.4 i вiдтворення природних ресурсiв, забезпечення екологiчноЁ бе
-зпеки,
- []
+LaTeX Warning: Command \textendash invalid in math mode on input line 7.
 
 
-Underfull \hbox (badness 7451) in paragraph at lines 480--481
-[]\T2A/cmr/m/n/14.4 Дотримання приведених нормативних параметрiв небезпечних i
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+[]\T2A/cmr/m/n/14.4 4 Stud.com.ua $\OMS/cmsy/m/n/14.4 ^^@$
  []
 
-[16]) [17] 
+) 
 AED: lastpage setting LastPage
-(./Example.aux)
+[7] (./Example.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 9138 strings out of 494398
- 139262 string characters out of 6172313
- 312844 words of memory out of 5000000
- 12280 multiletter control sequences out of 15000+600000
- 10566 words of font info for 31 fonts, out of 8000000 for 9000
+ 9145 strings out of 494398
+ 139919 string characters out of 6172313
+ 308844 words of memory out of 5000000
+ 12281 multiletter control sequences out of 15000+600000
+ 10610 words of font info for 31 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 42i,17n,51p,8836b,375s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,10n,51p,8836b,354s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Example.dvi (17 pages, 56572 bytes).
+Output written on Example.dvi (7 pages, 24452 bytes).
