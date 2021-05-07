@@ -37,7 +37,7 @@
 	\captionstyle{ \raggedright}
 	\caption{Загальна характеристика виробничого приміщення}\label{tab:work1-1}
 	%\centering
-	\begin{tabular}{|m{0.18\textwidth}|m{0.2\textwidth}|m{0.185\textwidth}|m{0.16\textwidth}|m{0.175\textwidth}|}
+	\begin{tabular}{|m{0.18\textwidth}|m{0.2\textwidth}|m{0.19\textwidth}|m{0.16\textwidth}|m{0.175\textwidth}|}
 		\hline
 		Найменування показника& Характеристика показника & Обґрунтування вибору значення показника & Документ, що регламентує цей показник & Примітка \\
 		\hlinewd{2pt}
@@ -52,11 +52,13 @@
 
 \newpage
 
+\vspace{-1.5em}
+
 \begin{table}[h!]
 	\captionstyle{ \raggedright}
 	\caption{Характеристика освітлення}\label{tab:work1-2}
 	%\centering
-	\begin{tabular}{|m{0.18\textwidth}|m{0.2\textwidth}|m{0.185\textwidth}|m{0.16\textwidth}|m{0.175\textwidth}|}
+	\begin{tabular}{|m{0.18\textwidth}|m{0.2\textwidth}|m{0.19\textwidth}|m{0.16\textwidth}|m{0.175\textwidth}|}
 		\hline
 		Найменування показника& Характеристика показника & Обґрунтування вибору значення показника & Документ, що регламентує цей показник & Примітка \\
 		\hlinewd{2pt}
@@ -94,11 +96,13 @@
 
 \newpage
 
+\vspace{-1.5em}
+
 \begin{table}[h]
 	\captionstyle{ \raggedright}
 	\caption{Характеристика електронної мережі}\label{tab:work1-3}
 	%\centering
-	\begin{tabular}{|m{0.18\textwidth}|m{0.2\textwidth}|m{0.185\textwidth}|m{0.16\textwidth}|m{0.175\textwidth}|}
+	\begin{tabular}{|m{0.18\textwidth}|m{0.2\textwidth}|m{0.19\textwidth}|m{0.16\textwidth}|m{0.175\textwidth}|}
 		\hline
 		Найменування показника& Характеристика показника & Обґрунтування вибору значення показника & Документ, що регламентує цей показник & Примітка \\
 		\hlinewd{2pt}
@@ -138,6 +142,8 @@
 Таблиця \ref{tab:work2-2} показує типовий перелік потенційних шкідливих факторів.
 
 \newpage
+
+\vspace{-1.5em}
 
 \begin{table}[hbt!]
 	\captionstyle{ \raggedright}
@@ -229,15 +235,18 @@
 
 \subsubsection{Вибір запобіжника}
 
-Визначення струму $І_{1}$ в А, що живить електроустановку (ЕУ) потужністю $Р_{1}$, Вт:
+Визначення струму $І_{1}$ в А, що живить електроустановку (ЕУ) потужністю $P_{1}$, Вт:
 
+\begin{equation}
+	I_{1} = \frac{P_{1}}{U_{\text{Ф}}},
+\end{equation}
 \[
-	I_{1} = \frac{P_{1}}{U_{\text{Ф}}}=\frac{325}{220}=1,47.
+	I_{1} = \frac{325}{220} = 1,47.
 \]
 
 \vspace{1.5em}
 
-Визначення пускового $І_{\text{ПУСК}}$ ЕУ потужністю $Р_{\text{1}}$, Вт:
+Визначення пускового $І_{\text{ПУСК}}$ ЕУ потужністю $P_{\text{1}}$, Вт:
 
 \begin{equation}\label{eq:work3}
 	І_{\text{ПУСК}} = \frac{\text{К}_{\text{П}}}{\text{К}_{\text{Т}}} I_{1},
@@ -284,8 +293,11 @@
 
 Потужність трансформатора визначається за умовою:
 
+\begin{equation}
+	N_{\text{ТР}} = 4 \cdot P_{2},
+\end{equation}
 \[
-	N_{\text{ТР}} = 4 \cdot P_{2} = 4 \cdot 1 = 4.
+	N_{\text{ТР}} = 4 \cdot 1 = 4.
 \]
 
 \vspace{1.5em}
@@ -367,11 +379,11 @@
 Для ділянки 1 вибираємо переріз, який відповідає струму $I_{1}$, для ділянки 2 $-$ струму $I_{2}$. В нашому випадку переріз для ділянки 1 дорівнює 1 $\text{мм}^{2}$, а для ділянки 2  дорівнює 1,5 $\text{мм}^{2}$. Тому:
 
 \[
-	R_{\text{Ф}_{1}} = \rho \cdot \frac{l_{1}}{S_{\text{Ф}_{1}}} = \frac{0,018 \cdot 15}{1} = 0,27,
+	R_{\text{Ф}_{1}} = \frac{0,018 \cdot 15}{1} = 0,27,
 \]
 
 \[
-	R_{\text{Ф}_{2}} = \rho \cdot \frac{l_{2}}{S_{\text{Ф}_{2}}} = \frac{0,018 \cdot 151}{1,5} = 1,81,
+	R_{\text{Ф}_{2}} = \frac{0,018 \cdot 151}{1,5} = 1,81,
 \]
 
 \[
@@ -382,8 +394,11 @@
 
 Струм $І_{2}$ в А визначаємо за формулою:
 
+\begin{equation}
+	I_{2} = \frac{P_{2}}{U_{\text{Ф}}}
+\end{equation}
 \[
-	I_{2} = \frac{P_{2}}{U_{\text{Ф}}} = \frac{1000}{220} = 4,54.
+	I_{2} = \frac{1000}{220} = 4,54.
 \]
 
 \vspace{1.5em}
