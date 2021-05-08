@@ -28,214 +28,93 @@ Python став загальноприйнятою мовою програмув
 \vspace{1em}
 
 \begin{figure}[h]
-  \includegraphics[width=\textwidth, height=3cm, natwidth=1227, natheight=187]{cifar10.jpg}
+  \includegraphics[width=\textwidth, height=5cm, natwidth=1227, natheight=187]{cifar10.jpg}
   \caption{Приклад зображень з датасету CIFAR-10}
   \label{fig:cifar10}
 \end{figure}
 
-\newpage
+\subsection{Аналіз роботи алгоритму Deep Infomax}
 
-В базі даних є колонка $posted\_time$ $-$ це ціле число, яке відображає кількість мілісекунд від першого січня 1980 року. З циих чисел можна отримати дату відправлення до тестувальної системи. Після угрупування по датам отримуємо часовий ряд, наведений у рис. \ref{fig:TimeSeries}.
+Робота методу Deep InfoMax буде розглядатись в залежності від значеть гіперпараметрів $\alpha, \, \beta \, \text{та} \, \gamma$, а також коефіціенту швидкості навчання. В кожному експерименті кількість епох навчання нейронної мережі складатиме 300.
 
-
-%Часовий ряд тестувальної системи DOTS має наступну структуру: в кожен день є певне ціле число відправлень, саме з цих чисел складається ряд. Часовий ряд наведено у рис. \ref{fig:TimeSeries}.
-
-\vspace{1em}
-
-\begin{figure}[h]
-  \includegraphics[width=\textwidth, height=7cm, natwidth=854, natheight=476]{TimeSeries.jpg}
-  \caption{Часовий ряд тестувальної системи DOTS}
-  \label{fig:TimeSeries}
-\end{figure}
-
-Задля перевірки роботи алгоритму, часовий ряд було розділено на два ряди: тренувальний, та тестувальний. Будуть розглядати тренувальні ряди, які складають $90\%$ та $80\%$ від початкового, щоб побачити можливості алгоритмів для прогнозів разної тривалості.
-
-\subsection{Аналіз та прогноз часового ряду за допомогою моделі ARIMA}
-%\subsection{Аналіз та прогноз часового ряду з використанням моделі ARIMA}
-
-У першому випадку, тренувальний ряд буде складати $90\%$ від початкового. У такому разі найбільш оптимальні параметри моделі ARIMA дорівнюють: $p = 6$, $d = 2$, $q = 4$. Результат прогнозування можна побачити на рис. \ref{fig:ARIMA90}.
+Якщо взяти $\alpha = 0,1 \, \beta = 0,1 \, \text{та} \, \gamma = 0,1$, то помилка на тренувальних даних буде 12,73 \% (див. рис. \ref{fig:deepinfoerror1}) та модель тренувалась приблизно 14 годин.
 
 \vspace{1em}
 
 \begin{figure}[h]
-  \includegraphics[width=\textwidth, height=7cm, natwidth=846, natheight=440]{ARIMA90.jpg}
-  \caption{Порівняння оригінального та зпрогнозованого рядів}
-  \label{fig:ARIMA90}
+  \includegraphics[width=\textwidth, height=7cm, natwidth=854, natheight=476]{deepinfoerror1.jpg}
+  \caption{Залежність помилки від епохи навчання при $\alpha = 0,1; \, \beta = 0,1; \, \gamma = 0,1$}
+  \label{fig:deepinfoerror1}
 \end{figure}
 
-%У табл. \ref{tab:ARIMA90} наведені параметри моделі та їхні до    вірчі інтервали.
-
-Середня абсолютна процентна похибка (MAPE) дорівнює $17,84\%$, що є добрим прогнозом. У табл. \ref{tab:ARIMA90} наведені параметри моделі та їхні довірчі інтервали.
-
-\begin{table}[h]
-\caption{Довірні інтервали параметрів моделі}\label{tab:ARIMA90}
-\begin{tabular}{|c|m{0.4\textwidth}|}
-\hline
-Параметр моделі & Довірчий інтервал \\
-		\hlinewd{2pt}
-$\alpha_{1} = -0,85$ & $-1,08 < -0,85 < -0,62$ \\
-\hline
-$\alpha_{2} = -0,93$ & $-1,13 < -0,93 < -0,72$ \\
-\hline
-$\alpha_{3} = -1,25$ & $-1,48 < -1,25 < -1,03$ \\
-\hline
-$\alpha_{4} = -0,94$ & $-1,14 < -0,94 < -0,75$ \\
-\hline
-$\alpha_{5} = -0,64$ & $-0,85 < -0,64 < -0,43$ \\
-\hline
-$\alpha_{6} = -0,45$ & $-0,62 < -0,45 < -0,28$ \\
-\hline
-$\theta_{1} = -0,98$ & $-1,12 < -0,98 < -0,84$ \\
-\hline
-$\theta_{2} = 0,34$ & $-0,04 < 0,34 < 0,65$ \\
-\hline
-$\theta_{3} = 0.45$ & $0.06 < 0.45 < 0.83$ \\
-\hline
-$\theta_{4} = -0,80$ & $-1,05 < -0,80 < -0,63$ \\
-\hline
-\end{tabular}
-\end{table}
-
-У випадку, коли тренувальний ряд дорівнює $80\%$ від початкового, то можемо бачити результати на рис. \ref{fig:ARIMA80}.
-
-\newpage
+На рис. \ref{fig:deepinfodemo1} можна побачити, що модель доволі погано узагальнює результати.
 
 \vspace{1em}
 
 \begin{figure}[h]
-  \includegraphics[width=\textwidth, height=7cm, natwidth=843, natheight=448]{ARIMA80.jpg}
-  \caption{Порівняння оригінального та зпрогнозованого рядів}
-  \label{fig:ARIMA80}
+  \includegraphics[width=\textwidth, height=7cm, natwidth=854, natheight=476]{deepinfodemo1.jpg}
+  \caption{Результати тестування при $\alpha = 0,1; \, \beta = 0,1; \, \gamma = 0,1$}
+  \label{fig:deepinfodemo1}
 \end{figure}
 
-Середня абсолютна процентна похибка (MAPE) дорівнює $45,94\%$, що є добрим прогнозом. У табл. \ref{tab:ARIMA80} наведені параметри моделі та їхні довірчі інтервали.
-
-\begin{table}[h]
-\caption{Довірні інтервали параметрів моделі}\label{tab:ARIMA80}
-\begin{tabular}{|c|m{0.4\textwidth}|}
-\hline
-Параметр моделі & Довірчий інтервал \\
-		\hlinewd{2pt}
-$\alpha_{1} = -0,99$ & $-1,22 < -0,99 < -0,75$ \\
-\hline
-$\alpha_{2} = -1,08$ & $-1,31 < -1,08 < -0,85$ \\
-\hline
-$\alpha_{3} = -1,39$ & $-1,63 < -1,39 < -1,14$ \\
-\hline
-$\alpha_{4} = -1,08$ & $-1,30 < -1,08 < -0,85$ \\
-\hline
-$\alpha_{5} = -0,75$ & $-0,97 < -0,75 < -0,52$ \\
-\hline
-$\alpha_{6} = -0,52$ & $-0,69 < -0,52 < -0,34$ \\
-\hline
-$\theta_{1} = -0,88$ & $-1,11 < -0,88 < -0,64$ \\
-\hline
-$\theta_{2} = 0,28$ & $-0,08 < 0,28 < 0,64$ \\
-\hline
-$\theta_{3} = 0,43$ & $0.04 < 0.43 < 0.82$ \\
-\hline
-$\theta_{4} = -0,83$ & $-1,04 < -0,83 < -0,62$ \\
-\hline
-\end{tabular}
-\end{table}
-
-\subsection{Аналіз та прогноз часового ряду за допомогою алгоритму SSA}
-
-У випадку алгоритму SSA будемо тестувати різні довжини вікон.
-
-Якщо довжина вікна дорівнює $10$, та тренувальний ряд складає $90\%$ оригінального, то отримуємо результати приведені у рис. \ref{fig:SSA9010}.
+Якщо взяти $\alpha = 0,5 \, \beta = 0,5 \text{та} \, \gamma = 0,5$, то помилка на тренувальних даних буде 8,05 \% (див. рис. \ref{fig:deepinfoerror2}) та модель тренувалась приблизно 11 годин.
 
 \vspace{1em}
 
 \begin{figure}[h]
-  \includegraphics[width=\textwidth, height=6cm, natwidth=872, natheight=447]{SSA9010.jpg}
-  \caption{Порівняння оригінального та зпрогнозованого рядів}
-  \label{fig:SSA9010}
+  \includegraphics[width=\textwidth, height=7cm, natwidth=854, natheight=476]{deepinfoerror2.jpg}
+  \caption{Залежність помилки від епохи навчання при $\alpha = 0,5; \, \beta = 0,5; \, \gamma = 0,5$}
+  \label{fig:deepinfoerror1}
 \end{figure}
 
-В такому випадку $\text{MAPE} = 37,04\%$.
-
-Якщо довжина вікна дорівнює $17$, та тренувальний ряд складає $90\%$ оригінального, то отримуємо результати приведені у рис. \ref{fig:SSA9016}.
+При $\alpha = 0,5 \, \beta = 0,9 \text{та} \, \gamma = 0,1$ помилка на тренувальних даних буде 1,28 \% (див. рис. \ref{fig:deepinfoerror2}) та модель тренувалась приблизно 6 годин.
 
 \vspace{1em}
 
 \begin{figure}[h]
-  \includegraphics[width=\textwidth, height=7cm, natwidth=880, natheight=447]{SSA9016.jpg}
-  \caption{Порівняння оригінального та зпрогнозованого рядів}
-  \label{fig:SSA9016}
+  \includegraphics[width=\textwidth, height=7cm, natwidth=854, natheight=476]{deepinfoerror3.jpg}
+  \caption{Залежність помилки від епохи навчання при $\alpha = 0,5; \, \beta = 0,9; \, \gamma = 0,1$}
+  \label{fig:deepinfoerror1}
 \end{figure}
 
-1-а власна трійка приведена на рис. \ref{fig:Trend90} відповідає тренду:
-
-\newpage
+Якщо взяти $\alpha = 0,5 \, \beta = 1 \text{та} \, \gamma = 0,1$, то помилка на тренувальних даних буде 1,43 \% (див. рис. \ref{fig:deepinfoerror2}) та модель тренувалась приблизно 6 годин.
 
 \vspace{1em}
 
 \begin{figure}[h]
-  \includegraphics[width=\textwidth, height=7cm, natwidth=822, natheight=408]{Trend90.jpg}
-  \caption{Трендова складова}
-  \label{fig:Trend90}
+  \includegraphics[width=\textwidth, height=7cm, natwidth=854, natheight=476]{deepinfoerror4.jpg}
+  \caption{Залежність помилки від епохи навчання при $\alpha = 0,5; \, \beta = 1; \, \gamma = 0,1$}
+  \label{fig:deepinfoerror4}
 \end{figure}
 
-2-а власна трійка є сезонною складовою. Її приведено на рис. \ref{fig:Cyclic190}.
+Отже, найкращі результати модель отримує при $\alpha = 0,5 \, \beta = 0,9 \text{та} \, \gamma = 0,1$. Результати тестування з даними гіперпараметрами наведено на рис. \ref{fig:deepinfodemo2}.
 
 \vspace{1em}
 
 \begin{figure}[h]
-  \includegraphics[width=\textwidth, height=7cm, natwidth=817, natheight=410]{Cyclic190.jpg}
-  \caption{Перша сезонна складова}
-  \label{fig:Cyclic190}
+  \includegraphics[width=\textwidth, height=7cm, natwidth=854, natheight=476]{deepinfodemo2.jpg}
+  \caption{Результати тестування при $\alpha = 0,5; \, \beta = 1; \, \gamma = 0,1$}
+  \label{fig:deepinfodemo2}
 \end{figure}
 
-Як можна побачити з графіку, 3-я власна трійка є також сезонною складовою. Її приведено на рис. \ref{fig:Cyclic290}.
+Усі вищенаведені результати були отримані з урахуванням коефіціенту швидкості навчання 0,001. Розглянемо результати роботи алгоритму з оптимальними гіперпараметрами з урахуванням інших можливих значень цього коефіціента.
 
-\newpage
+Якщо взяти коефіціент швидості навчання 0,003 то помилка на тренувальних даних буде 1,35 \% (див. рис. \ref{fig:deepinfoerror2}) та модель тренувалась приблизно 6 годин.
 
 \vspace{1em}
 
 \begin{figure}[h]
-  \includegraphics[width=\textwidth, height=7cm, natwidth=820, natheight=411]{Cyclic290.jpg}
-  \caption{Друга сезонна складова}
-  \label{fig:Cyclic290}
+  \includegraphics[width=\textwidth, height=7cm, natwidth=854, natheight=476]{deepinfoerror5.jpg}
+  \caption{Залежність помилки від епохи навчання при коефіціенті швидкості навчання 0,003}
+  \label{fig:deepinfoerror5}
 \end{figure}
 
 
-Якщо подивитися на двовимірну діаграму між 14 та 15 власними трійками, приведену на рис. \ref{fig:Diag90}, можна зробити висновок, що всі власні трійки після 14 відповідають за шумові процеси і їх можна не розглядати.
+
+\subsection{Аналіз роботи алгоритму Momentum Contrast}
 
 
-\vspace{1em}
 
-\begin{figure}[h]
-  \includegraphics[width=\textwidth, height=7cm, natwidth=837, natheight=422]{Diag90.jpg}
-  \caption{Двовимірна діаграма 14 і 15 власних трійок}
-  \label{fig:Diag90}
-\end{figure}
-
-В такому випадку $\text{MAPE} = 29,68\%$. Експерементальним шляхом було визначено, що дане значення є оптимальним.
-
-Якщо довжина вікна дорівнює $10$, та тренувальний ряд складає $80\%$ оригінального, то отримуємо результати приведені у рис. \ref{fig:SSA8010}.
-
-\newpage
-
-\vspace{1em}
-
-\begin{figure}[h]
-  \includegraphics[width=\textwidth, height=7cm, natwidth=876, natheight=436]{SSA8010.jpg}
-  \caption{Порівняння оригінального та зпрогнозованого рядів}
-  \label{fig:SSA8010}
-\end{figure}
-
-В такому випадку $\text{MAPE} = 47.59\%$.
-
-Якщо довжина вікна дорівнює $11$, та тренувальний ряд складає $80\%$ оригінального, то отримуємо результати приведені у рис. \ref{fig:SSA8011}.
-
-\begin{figure}[h]
-  \includegraphics[width=\textwidth, height=7cm, natwidth=868, natheight=435]{SSA8011.jpg}
-  \caption{Порівняння оригінального та зпрогнозованого рядів}
-  \label{fig:SSA8011}
-\end{figure}
-
-В такому випадку $\text{MAPE} = 40.22\%$. Експерементальним шляхом було визначено, що дане значення є оптимальним.
 
 \subsection{Висновки за розділом}
 
