@@ -17,7 +17,8 @@ Python став загальноприйнятою мовою програмув
 
 Також використовувалась бібліотеки NumPy та matplotlib. NumPy є основним пакетом для наукових обчислень з Python [11]. Matplotlib $-$ це всебічна бібліотека для створення статичних, анімованих та інтерактивних візуалізацій у Python [12]. 
 
-\vspace{1em}
+%\vspace{1em}
+\newpage
 
 \subsection{Дані для аналізу}
 
@@ -29,7 +30,7 @@ Python став загальноприйнятою мовою програмув
 
 Приклад зображень з датасету наведено у рис. \ref{fig:cifar10}.
 
-%\vspace{-1em}
+\vspace{1em}
 
 \begin{figure}[h]
   \includegraphics[width=\textwidth, height=8cm, natwidth=471, natheight=370]{cifar10.jpg}
@@ -42,10 +43,11 @@ Python став загальноприйнятою мовою програмув
 Робота методу Deep InfoMax буде розглядатись в залежності від значень гіперпараметрів $\alpha$, $\beta$ та $\gamma$, а також коефіціенту швидкості навчання. В кожному експерименті кількість епох навчання нейронної мережі складатиме 300.
 
 Якщо взяти $\alpha = 0,1$, $\beta = 0,1$ та $\gamma = 0,1$, то помилка на тренувальних даних буде 12,73 \% та модель тренувалась приблизно 14 годин.
-На рисунку \ref{fig:deepinfodemo1} можна побачити, що модель доволі погано узагальнює результати.
 
-%\vspace{1em}
-\newpage
+На рис. \ref{fig:deepinfodemo1} можна побачити, що модель доволі погано узагальнює результати.
+
+\vspace{1em}
+%\newpage
 
 \begin{figure}[h]
   \includegraphics[width=\textwidth, height=5cm, natwidth=345, natheight=130]{deepinfodemo1.jpg}
@@ -57,7 +59,7 @@ Python став загальноприйнятою мовою програмув
 
 \begin{table}[h]
 \caption{Залежність роботи моделі від $\alpha$, $\beta$ та $\gamma$}\label{tab:deepinfoerror}
-\begin{tabular}{|m{0.2\textwidth}|m{0.2\textwidth}|m{0.2\textwidth}|m{0.2\textwidth}|m{0.2\textwidth}|}
+\begin{tabular}{|m{0.15\textwidth}|m{0.15\textwidth}|m{0.15\textwidth}|m{0.2\textwidth}|m{0.2\textwidth}|}
 \hline
 $\alpha$ & $\beta$ & $\gamma$ & Помилка \% & Час год. \\
 \hlinewd{2pt}
@@ -93,7 +95,7 @@ $\alpha$ & $\beta$ & $\gamma$ & Помилка \% & Час год. \\
 
 Як можна спостерігати, найменша помилка отримується при $\alpha = 0,5$, $\beta = 0,9$ та $\gamma = 0,1$. Результати тестування можна побачити на рис. \ref{fig:deepinfodemo2}. Помилка на тестувальних даних складала 36,96 \%.
 
-\newpage
+\vspace{1em}
 
 \begin{figure}[h]
   \includegraphics[width=\textwidth, height=5cm, natwidth=334, natheight=114]{deepinfodemo2.jpg}
@@ -124,9 +126,10 @@ $\alpha$ & $\beta$ & $\gamma$ & Помилка \% & Час год. \\
 Робота методу Momentum Contrast буде розглядатись в залежності від значень гіперпараметру $\tau$, та коефіціенту швидкості навчання. В кожному експерименті кількість епох навчання нейронної мережі складатиме 300.
 
 Якщо взяти $\tau = 0,01$, то помилка на тренувальних даних буде складати 17,64 \% та модель тренувалась приблизно дев'ять годин.
+
 На рис. \ref{fig:mocodemo1} можна побачити, що модель доволі погано узагальнює результати.
 
-%\vspace{1em}
+\vspace{1em}
 %\newpage
 
 \begin{figure}[h]
@@ -139,7 +142,7 @@ $\alpha$ & $\beta$ & $\gamma$ & Помилка \% & Час год. \\
 
 \begin{table}[h]
 \caption{Залежність роботи моделі від $\tau$}\label{tab:mocoerror}
-\begin{tabular}{|m{0.2\textwidth}|m{0.2\textwidth}|m{0.2\textwidth}|}
+\begin{tabular}{|m{0.15\textwidth}|m{0.2\textwidth}|m{0.2\textwidth}|}
 \hline
 $\tau$ & Помилка \% & Час год. \\
 \hlinewd{2pt}
@@ -181,14 +184,15 @@ $\tau$ & Помилка \% & Час год. \\
   \label{fig:mocolearning}
 \end{figure}
 
-\newpage
+%\newpage
 
 З рис. \ref{fig:mocolearning} видно, що найкращі результати отримуються при коефіціенті 0,2. На рис. \ref{fig:mocodemo3} можна бачити результати тестування. Помилка в такому випадку складає 37,42 \% та час тренування $-$ приблизно чотири години.
 
 %\newpage
+\vspace{1em}
 
 \begin{figure}[h!]
-  \includegraphics[width=\textwidth, height=9cm, natwidth=621, natheight=456]{mocodemo3.jpg}
+  \includegraphics[width=\textwidth, height=8cm, natwidth=621, natheight=456]{mocodemo3.jpg}
   \caption{Результати тестування при оптимальних параметрах}
   \label{fig:mocodemo3}
 \end{figure}

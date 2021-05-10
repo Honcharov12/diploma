@@ -166,8 +166,10 @@
 \renewcommand\cftsecleader{\cftdotfill{\cftdotsep}} % Точки для секций в содержании
 \renewcommand\cftsecpagefont{\mdseries}             % Номера страниц не жирные
 \setcounter{tocdepth}{3}                            % Глубина оглавления, до subsubsection
-\renewcommand\cftchapafterpnum{\vskip15pt}
+%\renewcommand\cftcafterpnum{\vskip15pt}
 \renewcommand\cftsecafterpnum{\vskip15pt}
+\renewcommand\cftsubsecafterpnum{\vskip15pt}
+\renewcommand\cftsubsubsecafterpnum{\vskip15pt}
 
 \usepackage{fancyhdr}
 \pagestyle{fancy}
