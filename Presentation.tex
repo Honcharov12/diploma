@@ -1,0 +1,214 @@
+\documentclass[c]{beamer}
+
+\usetheme{Berlin}
+
+%%% Работа с русским языком
+\usepackage{cmap}					% поиск в PDF
+\usepackage{mathtext} 				% русские буквы в формулах
+\usepackage[T2A]{fontenc}			% кодировка
+\usepackage[utf8]{inputenc}			% кодировка исходного текста
+\usepackage[english,russian]{babel}	% локализация и переносы
+
+%% Beamer по-русски
+\newtheorem{rtheorem}{Теорема}
+\newtheorem{rproof}{Доказательство}
+\newtheorem{rexample}{Пример}
+
+%%% Дополнительная работа с математикой
+\usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools} % AMS
+\usepackage{icomma} % "Умная" запятая: $0,2$ --- число, $0, 2$ --- перечисление
+
+%% Номера формул
+%\mathtoolsset{showonlyrefs=true} % Показывать номера только у тех формул, на которые есть \eqref{} в тексте.
+%\usepackage{leqno} % Нумерация формул слева
+
+%% Свои команды
+\DeclareMathOperator{\sgn}{\mathop{sgn}}
+
+%% Перенос знаков в формулах (по Львовскому)
+\newcommand*{\hm}[1]{#1\nobreak\discretionary{}
+{\hbox{$\mathsurround=0pt #1$}}{}}
+
+%%% Работа с картинками
+\usepackage{graphicx}  % Для вставки рисунков
+\graphicspath{{Mal/}}  % папки с картинками
+\setlength\fboxsep{3pt} % Отступ рамки \fbox{} от рисунка
+\setlength\fboxrule{1pt} % Толщина линий рамки \fbox{}
+\usepackage{wrapfig} % Обтекание рисунков текстом
+
+%%% Работа с таблицами
+\usepackage{array,tabularx,tabulary,booktabs} % Дополнительная работа с таблицами
+\usepackage{longtable}  % Длинные таблицы
+\usepackage{multirow} % Слияние строк в таблице
+
+%%% Программирование
+\usepackage{etoolbox} % логические операторы
+
+%%% Другие пакеты
+\usepackage{lastpage} % Узнать, сколько всего страниц в документе.
+\usepackage{soul} % Модификаторы начертания
+\usepackage{csquotes} % Еще инструменты для ссылок
+%\usepackage[style=authoryear,maxcitenames=2,backend=biber,sorting=nty]{biblatex}
+\usepackage{multicol} % Несколько колонок
+
+%%% Картинки
+\usepackage{tikz} % Работа с графикой
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+
+\setbeamertemplate{footline}[frame number]
+
+\title{Дипломна робота}
+\subtitle{Розробка методів представлення візуальної інформації за допомогою методів самонавчання та contrastive learning}
+\subtitle{Розробка методів представлення візуальної інформації за допомогою методів самонавчання та contrastive learning}
+\subtitle{Розробка методів представлення візуальної інформації за допомогою методів самонавчання та contrastive learning}
+\author{Виконав студент групи КН-Н119, Гончаров В. А.}
+\author{Колбасін В. О.}
+\date{\today}
+\institute[НТУ <<ХПІ>>]{Національний технічний університет \\ <<Харківський політехнічний інститут>>}
+
+\begin{document}
+
+\frame[plain]{\titlepage}	% Титульный слайд
+
+\section{Вступ}
+
+\begin{frame}
+	\frametitle{\insertsection}
+	Объект исследованя - тестирующая система DOTS (от англ. Docker-oriented testing system). %$-$ это система автоматической проверки задач по программированию.
+
+%	DOTS $-$ самая масштабная система в харьковской области и одна из самых распространённых на территории Украины. На её основе проводятся различные олимпиады, турниры, курсы по программированию.
+	
+	\pause
+%	Для функционирования системы необходимы сервера. 
+	Цель исследования $-$ прогнозирование ряда загруженности серверов.
+
+	\pause
+	Методы исследования $-$ математическая модель ARIMA и алгоритм SSA.
+\end{frame}
+
+\begin{frame}
+	\frametitle{\insertsection}
+	Задачи:\pause
+	\begin{enumerate}
+		\item подготовка исходных данных;\pause
+		\item анализ структуры временного ряда;\pause
+		\item анализ точности построенных моделей;\pause
+		\item прогнозирование (качество прогнозов определяется благодаря средней абсолютной ошибке\newline MAPE = $\frac{100}{K}\sum_{i=1}^{K}\frac{|x_{i} - \hat{x}_{i}|}{x_{i}}$);\pause
+		\item сравнение работы методов.
+	\end{enumerate}
+\end{frame}
+
+\section{Теоретическая часть}
+
+\begin{frame}
+	\frametitle{\insertsection}
+	Модель ARIMA имеет следующий вид:
+
+	\[
+		\alpha(L)\Delta^{d}x_{t} = \theta(L)e_{t},
+	\]
+	\noindent де L $-$ оператор лага; d $-$ порядок интеграции; $\alpha(L)$ $-$ оператор авторегрессии; $\theta(L)$ $-$ оператор скользящего среднего.\pause
+
+	Алгоритм SSA состоит из следующих шагов:\pause
+
+	\begin{enumerate}
+		\item вложение (выбирается дляна окна L, формируется траекторная матрица $X = [X_{1} : \dots: X_{K}]$, K = N - L + 1);\pause
+		\item сингулярное разложение;\pause
+		\item группировка;\pause
+		\item диагональное усреднение.
+	\end{enumerate}	
+	
+\end{frame}
+
+\section{Практическая часть}
+
+\begin{frame}
+	\frametitle{\insertsection}
+	
+	В ходе работы использовался язык программирования Python со специализированными библиотеками NumPy, pandas, matplotlib.\pause
+	
+	База данных DOTS хранится в виде SQL-таблиц.\pause
+	
+	Первым делом необходимо очистить данные.	
+	
+\end{frame}
+
+\begin{frame}
+	\frametitle{\insertsection}
+	
+	Следующим этапом является агрегирование данных.\pause
+	
+	В таблице есть поле posted\_time $-$ благодаря ему можно сгруппировать данные по суткам.\pause
+	
+	После группировки получается следующий временной ряд:	
+	
+  	\centering\includegraphics[width=0.80\textwidth, height=4cm, natwidth=854, natheight=476]{TimeSeries.jpg}
+
+\end{frame}
+
+\subsection{Анализ с использованием модели ARIMA}
+
+\begin{frame}
+	\frametitle{\insertsection}
+	\framesubtitle{\insertsubsection}
+
+	Результаты анализа моделью ARIMA(6, 2, 4) при тренировочном ряде 90 \%. MAPE = 17,84 \%.
+		
+  	\includegraphics[width=\textwidth, height=5cm, natwidth=846, natheight=440]{ARIMA90.jpg}
+
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{\insertsection}
+	\framesubtitle{\insertsubsection}
+	
+	Результаты анализа моделью ARIMA(6, 2, 4) при тренировочном ряде 80 \%. MAPE = 45,94 \%.
+	
+	\includegraphics[width=\textwidth, height=5cm, natwidth=843, natheight=448]{ARIMA80.jpg}
+
+
+\end{frame}
+
+\subsection{Анализ с использованием алгоритма SSA}
+
+\begin{frame}
+	\frametitle{\insertsection}
+	\framesubtitle{\insertsubsection}
+
+	Результаты анализа алгоритмом SSA при длине окна 17, тренировочном ряде 90 \%. MAPE = 29,68 \%.
+	
+  	\includegraphics[width=\textwidth, height=5cm, natwidth=880, natheight=447]{SSA9016.jpg}
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{\insertsection}
+	\framesubtitle{\insertsubsection}
+
+	Результаты анализа алгоритмом SSA при длине окна 11, тренировочном ряде 80 \%. MAPE = 40,22 \%.
+
+	\includegraphics[width=\textwidth, height=5cm, natwidth=868, natheight=435]{SSA8011.jpg}
+
+\end{frame}
+
+\section{Висновки}
+
+\begin{frame}
+	\frametitle{\insertsection}
+	В ходе выполнения дипломной работы было сделано следующее:\pause
+	\begin{enumerate}
+		\item проведен анализ литературных источников;\pause
+		\item освоены методы ARIMA и SSA для анализа и пронозирования;\pause
+		\item числено решены задачи структурного анализа и построения проноза с использованием библиотек языка программирования Python.\pause
+	\end{enumerate}
+
+	Результаты прогнозирования показали, что ARIMA больше подходит для небольших прогнозов, а SSA $-$ для длительных.
+\end{frame}
+
+\begin{frame}
+	\centering\LARGEДякую за увагу!
+\end{frame}
+
+\end{document}
