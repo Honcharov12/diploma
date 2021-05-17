@@ -106,26 +106,24 @@
 
 \section{Теоретична частина}
 
-%\subsection{Self-supervised learning}
+\subsection{Self-supervised learning}
 
 \begin{frame}
 	\frametitle{\insertsection}
-	Модель ARIMA имеет следующий вид:
-
-	\[
-		\alpha(L)\Delta^{d}x_{t} = \theta(L)e_{t},
-	\]
-	\noindent де L $-$ оператор лага; d $-$ порядок интеграции; $\alpha(L)$ $-$ оператор авторегрессии; $\theta(L)$ $-$ оператор скользящего среднего.\pause
-
-	Алгоритм SSA состоит из следующих шагов:\pause
-
-	\begin{enumerate}
-		\item вложение (выбирается дляна окна L, формируется траекторная матрица $X = [X_{1} : \dots: X_{K}]$, K = N - L + 1);\pause
-		\item сингулярное разложение;\pause
-		\item группировка;\pause
-		\item диагональное усреднение.
-	\end{enumerate}	
 	
+  	\includegraphics[width=\textwidth, height=8cm, natwidth=850, natheight=450]{self_supervised.jpg}
+
+	Самонавчання $-$ це технологія навчання комп'ютерів виконання різноманітних задач без надання людьми маркованих даних.
+\end{frame}
+
+\subsection{Contrastive learning}
+
+\begin{frame}
+	\frametitle{\insertsection}
+	
+  	\includegraphics[width=\textwidth, height=8cm, natwidth=497, natheight=349]{contrastive.jpg}
+
+	Порівняльне навчання $-$ це техніка машинного навчання, яка використовується для вивчення загальних особливостей набору даних без міток, навчаючи моделі, які точки даних подібні чи різні.
 \end{frame}
 
 \section{Практична частина}
@@ -133,24 +131,15 @@
 \begin{frame}
 	\frametitle{\insertsection}
 	
-	В ходе работы использовался язык программирования Python со специализированными библиотеками NumPy, pandas, matplotlib.\pause
+	В процесі роботи була використана мова програмування Python зі спеціалізованими бібліотеками PyTorch, NumPy, Matplotliib.\pause
 	
-	База данных DOTS хранится в виде SQL-таблиц.\pause
 	
-	Первым делом необходимо очистить данные.	
-	
-\end{frame}
+	Для демонстрації та аналізу роботи алгоритмів були використані дані з датасету CIFAR-10.
 
-\begin{frame}
-	\frametitle{\insertsection}
-	
-	Следующим этапом является агрегирование данных.\pause
-	
-	В таблице есть поле posted\_time $-$ благодаря ему можно сгруппировать данные по суткам.\pause
-	
-	После группировки получается следующий временной ряд:	
-	
-  	\centering\includegraphics[width=0.80\textwidth, height=4cm, natwidth=854, natheight=476]{TimeSeries.jpg}
+%	Набір даних CIFAR-10 складається з 60000 кольорових зображень розміром 32x32 у 10 класах, по 6000 зображень на клас. Існує 50000 навчальних зображень та 10000 тестових зображень [13].
+
+  	\includegraphics[width=\textwidth, height=8cm, natwidth=471, natheight=370]{cifar10.jpg}
+  %	\centering\includegraphics[width=0.80\textwidth, height=4cm, natwidth=854, natheight=476]{TimeSeries.jpg}
 
 \end{frame}
 
