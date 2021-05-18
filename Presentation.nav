@@ -17,26 +17,28 @@
 \headcommand {\beamer@subsectionentry {0}{2}{2}{11}{Contrastive learning}}\headcommand {\beamer@subsectionpages {10}{10}}
 \headcommand {\slideentry {2}{2}{1}{11/11}{Contrastive learning}{0}}
 \headcommand {\beamer@framepages {11}{11}}
-\headcommand {\sectionentry {3}{\IeC {\CYRP }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrk }\IeC {\cyrt }\IeC {\cyri }\IeC {\cyrch }\IeC {\cyrn }\IeC {\cyra } \IeC {\cyrch }\IeC {\cyra }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyri }\IeC {\cyrn }\IeC {\cyra }}{12}{\IeC {\CYRP }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrk }\IeC {\cyrt }\IeC {\cyri }\IeC {\cyrch }\IeC {\cyrn }\IeC {\cyra } \IeC {\cyrch }\IeC {\cyra }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyri }\IeC {\cyrn }\IeC {\cyra }}{0}}
-\headcommand {\beamer@sectionpages {10}{11}}
-\headcommand {\beamer@subsectionpages {11}{11}}
-\headcommand {\slideentry {3}{0}{1}{12/13}{}{0}}
-\headcommand {\beamer@framepages {12}{13}}
-\headcommand {\beamer@subsectionentry {0}{3}{1}{14}{Deep InfoMax}}\headcommand {\beamer@subsectionpages {12}{13}}
-\headcommand {\slideentry {3}{1}{1}{14/14}{Deep InfoMax}{0}}
-\headcommand {\beamer@framepages {14}{14}}
-\headcommand {\beamer@subsectionentry {0}{3}{2}{15}{Momentum Contrast}}\headcommand {\beamer@subsectionpages {14}{14}}
-\headcommand {\slideentry {3}{2}{1}{15/15}{Momentum Contrast}{0}}
+\headcommand {\slideentry {2}{2}{2}{12/12}{Contrastive learning}{0}}
+\headcommand {\beamer@framepages {12}{12}}
+\headcommand {\sectionentry {3}{\IeC {\CYRP }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrk }\IeC {\cyrt }\IeC {\cyri }\IeC {\cyrch }\IeC {\cyrn }\IeC {\cyra } \IeC {\cyrch }\IeC {\cyra }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyri }\IeC {\cyrn }\IeC {\cyra }}{13}{\IeC {\CYRP }\IeC {\cyrr }\IeC {\cyra }\IeC {\cyrk }\IeC {\cyrt }\IeC {\cyri }\IeC {\cyrch }\IeC {\cyrn }\IeC {\cyra } \IeC {\cyrch }\IeC {\cyra }\IeC {\cyrs }\IeC {\cyrt }\IeC {\cyri }\IeC {\cyrn }\IeC {\cyra }}{0}}
+\headcommand {\beamer@sectionpages {10}{12}}
+\headcommand {\beamer@subsectionpages {11}{12}}
+\headcommand {\slideentry {3}{0}{1}{13/14}{}{0}}
+\headcommand {\beamer@framepages {13}{14}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{15}{Deep InfoMax}}\headcommand {\beamer@subsectionpages {13}{14}}
+\headcommand {\slideentry {3}{1}{1}{15/15}{Deep InfoMax}{0}}
 \headcommand {\beamer@framepages {15}{15}}
-\headcommand {\sectionentry {4}{\IeC {\CYRV }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrv }\IeC {\cyrk }\IeC {\cyri }}{16}{\IeC {\CYRV }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrv }\IeC {\cyrk }\IeC {\cyri }}{0}}
-\headcommand {\beamer@sectionpages {12}{15}}
-\headcommand {\beamer@subsectionpages {15}{15}}
-\headcommand {\slideentry {4}{0}{1}{16/19}{}{0}}
-\headcommand {\beamer@framepages {16}{19}}
-\headcommand {\slideentry {4}{0}{2}{20/20}{}{0}}
-\headcommand {\beamer@framepages {20}{20}}
-\headcommand {\beamer@partpages {1}{20}}
-\headcommand {\beamer@subsectionpages {16}{20}}
-\headcommand {\beamer@sectionpages {16}{20}}
-\headcommand {\beamer@documentpages {20}}
-\headcommand {\def \inserttotalframenumber {10}}
+\headcommand {\beamer@subsectionentry {0}{3}{2}{16}{Momentum Contrast}}\headcommand {\beamer@subsectionpages {15}{15}}
+\headcommand {\slideentry {3}{2}{1}{16/16}{Momentum Contrast}{0}}
+\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\sectionentry {4}{\IeC {\CYRV }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrv }\IeC {\cyrk }\IeC {\cyri }}{17}{\IeC {\CYRV }\IeC {\cyri }\IeC {\cyrs }\IeC {\cyrn }\IeC {\cyro }\IeC {\cyrv }\IeC {\cyrk }\IeC {\cyri }}{0}}
+\headcommand {\beamer@sectionpages {13}{16}}
+\headcommand {\beamer@subsectionpages {16}{16}}
+\headcommand {\slideentry {4}{0}{1}{17/20}{}{0}}
+\headcommand {\beamer@framepages {17}{20}}
+\headcommand {\slideentry {4}{0}{2}{21/21}{}{0}}
+\headcommand {\beamer@framepages {21}{21}}
+\headcommand {\beamer@partpages {1}{21}}
+\headcommand {\beamer@subsectionpages {17}{21}}
+\headcommand {\beamer@sectionpages {17}{21}}
+\headcommand {\beamer@documentpages {21}}
+\headcommand {\def \inserttotalframenumber {11}}
